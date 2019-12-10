@@ -1,0 +1,21 @@
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <circle id="path-1" cx="60" cy="60" r="60"></circle>
+    <filter x="-5.8%" y="-4.2%" width="111.7%" height="111.7%" filterUnits="objectBoundingBox" id="filter-2">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="8a.-Dashboard-Desktop---KM-Monthly-page" transform="translate(-769.000000, -1672.000000)">
+      <g id="play-video-copy" transform="translate(773.000000, 1674.000000)">
+        <g id="Oval-4">
+          <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+          <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <path d="M85.2114002,62.1070235 L45.8672021,84.8368094 C44.7470303,85.4483468 43.4210526,84.6324736 43.4210526,83.4093988 L43.4210526,37.949827 C43.4210526,36.7267523 44.7470303,35.9123491 45.8672021,36.5238865 L85.2114002,59.2536724 C86.333042,59.8652098 86.333042,61.4954861 85.2114002,62.1070235" id="Fill-1" fill="#f05e7c"></path>
+      </g>
+    </g>
+  </g>
+</svg>

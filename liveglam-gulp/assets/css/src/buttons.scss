@@ -1,0 +1,255 @@
+@import 'constants.scss';
+
+/* ----------------------------------------------------------
+
+    General Button Styles
+
+------------------------------------------------------------- */
+
+// Buttons
+.btn-primary,
+.btn-secondary {
+	position: relative;
+	text-align: center;
+	font-size: 12px !important;
+	line-height: 1.2;
+	max-width: 100%;
+	border-radius: .6em !important;
+	color: $color_white !important;
+	background: $color_dark_red_approx !important;
+	transition: all .2s ease-in-out;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.25em;
+	border: 0;
+	padding: 0 2em;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 62px;
+	outline: unset !important;
+	white-space: initial;
+
+	&::before {
+		content: ' ';
+		position: absolute;
+		left: .5em;
+		right: .5em;
+		top: .5em;
+		bottom: .5em;
+		border: 1px solid $color_white;
+		border-radius: .3em;
+	}
+
+	&:hover, &:focus, &:active {
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+		background: $color_sail_blue_approx !important;
+		cursor: pointer;
+	}
+
+	&.btn-half {
+		width: 45%;
+		min-width: unset !important;
+	}
+
+	// calculated with vw 
+	&.btn-vw {
+		// height: calc(14px + 2.5vw);
+		border-radius: 0.45vw !important;
+		height: 3.8vw;
+		min-width: 14vw;
+		font-size: .8vw !important;
+	}
+
+	// No letter spacing
+	&.condensed {
+		letter-spacing: .1em;
+		padding: 0 1em;
+	}
+
+    // No second border
+	&.btn-solid {
+		padding: 0 1em;
+		&::before {
+			display: none;
+		}
+	}
+
+    // Disabled button
+	&.disabled {
+		background: gray !important;
+		cursor: default;
+	}
+
+    // Smaller height
+	&.btn-sm {
+		height: 4em;
+
+		&:before {
+			left: .4em;
+			right: .4em;
+			top: .4em;
+			bottom: .4em;
+		}
+	}
+
+    // Buttons for log out pages
+	.no-subscribe & {
+		min-width: 230px;
+	}
+}
+
+.btn-secondary {
+	color: $color_dark_red_approx !important;
+	background: $color_white !important;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+
+	&::before {
+		border-color: $color_dark_red_approx;
+	}
+
+    // Secondary button sometimes can have transarent background, not white.
+	&.transparent {
+		background: transparent !important;
+    }
+    
+	&:hover, &:focus, &:active {
+		background: $color_orange_light !important;
+	}
+
+    // No second border, so should have main border
+	&.btn-solid {
+		border: 1px solid $color_dark_red_approx;
+
+		&:hover, &:focus, &:active {
+			border-color: transparent;
+		}
+	}
+	
+	&.btn-gray {
+		border: 1px solid #56616d;
+		color: #56616d !important;
+
+		&:hover, &:focus, &:active {
+			background: #56616d !important;
+			color: #fff !important;
+		}
+	}
+}
+
+.btn-white { // Used somewhere? Couldn't find so far
+	background-color: $color_white;
+	border: 1px solid $color_regent_gray_approx !important;
+	color: $color_regent_gray_approx;
+}
+
+.btn-pink { // Still used in login pages
+	color: $color_white;
+	background-color: $color_dark_red_approx;
+	transition: all 0.2s ease-in-out;
+	
+	&:hover {
+		background: $color_black;
+		border-color: $color_black;
+		color: $color_white;
+		
+		> span {
+			color: $color_nobel_approx !important;
+		}
+	}
+}
+
+.lg-disabled-btn {
+	background-color: #e0e6ed !important;
+}
+
+@media only screen and (max-width: $screen-lg-max) { // 1199.9px
+
+	.btn-primary,
+	.btn-secondary {
+		&:not(.btn-static) {
+			font-size: calc(3px + .75vw) !important;
+			height: 4.43vw;
+			border-radius: .36vw !important;
+	
+			&::before {
+				left: .43vw;
+				right: .43vw;
+				top: .43vw;
+				bottom: .43vw;
+				border-radius: .3vw;
+			}
+			.no-subscribe & {
+				min-width: 19vw;
+			}
+		}
+    }
+}
+
+@media only screen and (max-width: $screen-sm-max) { // 767.9px
+
+	.btn-primary,
+	.btn-secondary {
+		font-size: 12px !important;
+		height: 55px;
+		border-radius: 5px !important;
+
+		&::before {
+			left: 5px;
+			right: 5px;
+			top: 5px;
+			bottom: 5px;
+			border-radius: 3px;
+		}
+		
+		&.btn-vw {
+			height: 13vw;
+			font-size: 3vw !important;
+			border-radius: 1.25vw !important;
+		}
+		.no-subscribe & {
+			min-width: 230px;
+		}
+
+		&.btn-sm {
+			&:before {
+				left: 5px;
+				right: 5px;
+				top: 5px;
+				bottom: 5px;
+			}
+		}
+		
+		&:not(.btn-static) {
+			font-size: 12px !important;
+			height: 55px;
+			border-radius: 5px !important;
+	
+			&::before {
+				left: 5px;
+				right: 5px;
+				top: 5px;
+				bottom: 5px;
+				border-radius: 3px;
+			}
+			
+			&.btn-vw {
+				height: 13vw;
+				font-size: 3vw !important;
+				border-radius: 1.25vw !important;
+			}
+			.no-subscribe & {
+				min-width: 230px;
+			}
+
+			&.btn-sm {
+				&:before {
+					left: 5px;
+					right: 5px;
+					top: 5px;
+					bottom: 5px;
+				}
+			}
+		}
+	}
+}

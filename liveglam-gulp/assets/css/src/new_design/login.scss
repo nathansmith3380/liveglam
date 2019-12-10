@@ -1,0 +1,234 @@
+@import '../constants.scss';
+
+
+/* ----------------------------------------------------------
+
+	Login Popup Modal / Login Page styles
+
+------------------------------------------------------------- */
+
+.new-form-login {
+	padding: 50px 0;
+	background: url('../../img/login_bg_bottom.png') no-repeat,
+				url('../../img/login_bg_top.png') no-repeat,
+				url('../../img/login_bg_right.png') no-repeat,
+				linear-gradient(180deg, $color_vague_pink_approx 0%, $color_light_red_approx 100%);
+	background-position: bottom right 210px,top right 120px,right bottom;
+	height: 900px;
+	display: flex;
+	align-items: center;
+
+	.login-content {
+		width: 50%;
+
+		.woocommerce-invalid {
+			label {
+				color: red;
+			}
+		}
+		
+		form {
+			border: none !important;
+			padding: 0 !important;
+			margin: 0 auto !important;
+		}
+		.form-row {
+			display: block;
+			text-align: left;
+			margin: 20px auto;
+
+			&.form-row-login {
+				display: flex;
+				justify-content: center;
+			}
+		}
+		.login-title {
+			color: $color_text_primary;
+			font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+			font-weight: 700;
+			letter-spacing: -0.01em;
+			line-height: 1.17;
+			text-align: center;
+		}
+		.login-subtitle {
+			font-weight: 600;
+			text-align: center;
+		}
+		.login-desc {
+			color: $color_black;
+			font-weight: 300;
+			letter-spacing: 1px;
+			margin: .5em 0 1em;
+			text-align: center;
+		}
+		label {
+			color: $color_black_666;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 1;
+			display: inline-block !important;
+		}
+		input.input-text {
+			font-size: 14px;
+			height: 61px;
+			box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.09);
+			border: 1px solid $color_alto;
+			background-color: $color_white;
+			padding: 1.78em;
+			color: $color_grey;
+			font-weight: 400;
+			line-height: 1.14em;
+		}
+		.no-account {
+			text-align: center;
+			color: $color_black;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 2;
+
+			a { margin-top: 10px; }
+			a.lets-fix-that {
+				color: $color_dark_red_approx;
+				text-decoration: underline !important;
+			}
+		}
+		.login-lostpassword {
+			color: $color_dark_red_approx;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1;
+			margin-top: .8em;
+		}
+		hr {
+			margin-top: 40px;
+			margin-bottom: 30px;
+			border-top: 1px solid #f0ac99;
+		}
+	} 
+}
+#simplemodal-login-form {
+	.new-form-login {
+		height: 100vh !important;
+		min-height: 800px;
+	}
+}
+
+@media (max-width: $screen-full-max) {
+	.new-form-login {
+		background-size: auto 15vw,auto 24vw,auto,auto;
+	}
+}
+
+@media (max-width: $screen-lg-max) {
+	.new-form-login {
+		background-size: auto 15vw,auto 24vw, 45vw auto,auto;
+		height: 75vw;
+
+		.login-content {
+			.form-row {
+				margin: 1.67vw auto;
+			}
+			.login-desc {
+				letter-spacing: 0.08vw;
+			}
+			label {
+				font-size: 1.33vw;
+			}
+			input.input-text {
+				font-size: 1.17vw;
+				height: 5.08vw;
+			}
+			.no-account {
+				font-size: 1.33vw;
+			}
+			.login-lostpassword {
+				font-size: 1.17vw;
+			}
+		}
+	}
+}
+
+@media (max-width: $screen-sm-max) {
+	#simplemodal-login-form {
+		.new-form-login {
+			height: auto !important;
+			min-height: 100vh;
+		}
+	}
+	
+	.new-form-login {
+		background: url('../../img/login_bg_mobile_left.png') no-repeat left bottom,
+					url('../../img/login_bg_mobile_right.png') no-repeat right bottom,
+					linear-gradient(180deg, $color_vague_pink_approx 0%, $color_light_red_approx 100%);
+		padding: 30px 0 calc(300px - 20vw);
+		height: auto;
+
+		.login-content {
+			width: 100%;
+
+			.login-title {
+				line-height: 40px;
+			}
+			.login-desc {
+				font-weight: 300;
+				line-height: 28px !important;
+			}
+			label {
+				font-size: 16px;
+			}
+			input.input-text {
+				font-size: 14px;
+				height: 50px;
+			}
+			.login-lostpassword {
+				font-size: 12px;
+			}
+			.form-row {
+				margin: 25px auto;
+
+				&.form-row-login {
+					margin: 25px auto;
+				}
+			}
+			.no-account {
+				font-size: 14px;
+				a { margin-top: 0; }
+			}
+			hr {
+				margin-top: 20px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	.simplemodal-login-activity {
+		color: $color_white !important;
+	}
+}
+
+
+.simplemodal-close {
+	transition: all 0.2s ease-in-out;
+	z-index: 101;
+	width: 36px;
+	height: 36px;
+	line-height: 4.4rem;
+	position: absolute;
+	right: 0.5rem;
+	top: 0.5rem;
+	text-decoration: none;
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+	color: $color_silver_approx;
+	font-style: normal;
+	font-size: 1.9rem !important;
+	background: $color_mercury_approx;
+	text-align: center;
+	line-height: 3.5vw !important;
+	
+	&:hover {
+		background: $color_quill_gray_approx;
+		cursor: pointer;
+		color: $color_white;
+	}
+}

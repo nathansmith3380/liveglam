@@ -1,0 +1,42 @@
+{
+  "key": "group_5ca0a429e68cb",
+  "title": "Leaderboard Setting",
+  "fields": [
+    {
+      "key": "field_5ca0a45d558b9",
+      "label": "Users exclude from leaderboard",
+      "name": "users_exclude_from_leaderboard",
+      "type": "user",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "role": "",
+      "allow_null": 0,
+      "multiple": 1,
+      "return_format": "id"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "dashboard-setting"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "modified": 1573274410
+}

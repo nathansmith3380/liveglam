@@ -1,0 +1,599 @@
+@import '../constants.scss';
+
+/* -----------------------------------------------------------------------------
+
+	Dashboard Trade Styles
+
+-------------------------------------------------------------------------------- */
+
+.lg_trade_monthly {
+	width: 75rem;
+	margin: 0 auto;
+	background: $color_white;
+    position: relative;
+    color: #000;
+    text-align: center;
+    font-size: 1.6rem;
+    max-width: 100%;
+	
+	.lg_trade_monthly_header {
+		padding: 3rem;
+		background-image: linear-gradient(to right, #f7afb8 0%, #a7deec 100%);
+        @include mq('tablet') { padding: 3rem 4rem 1rem; }
+        @include mq('phone-small') { padding: 8vw 10vw 2.5vw; }
+
+        img {
+            width: 6rem;
+            margin-bottom: 1.5rem;
+        }
+
+		.lg_trade_monthly_title {
+			font-size: 2.7rem;
+            font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+
+            @include mq('tablet') { font-size: 2.2rem; }
+            @include mq('phone-small') { font-size: 5.8vw; }
+		}
+		
+		.lg_trade_monthly_desc {
+            margin: 0;
+            @include mq('tablet') { display: none; }
+        }
+        
+        .lg_trade_monthly_nav {
+            
+            ul {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                list-style: none;
+                justify-content: center;
+                transition: .3s ease-in-out;
+                
+                li {
+                    padding: 1rem;
+                    display: flex;
+                    align-items: center;
+                    padding-right: 5rem;
+                    position: relative;
+                    @include mq('phone-small') { padding: 2.5vw; padding-right: 13.5vw; }
+                    
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        right: .5rem;
+                        top: 50%;
+                        height: .3rem;
+                        width: 3rem;
+                        background: #000;
+                        opacity: .2;
+
+                        @include mq('phone-small') { width: 8vw; }
+                    }
+
+                    &:last-child {
+                        padding-right: 1rem;
+
+                        &:after { content: none; }
+                    }
+    
+                    .option-selected {
+                        min-width: 2.2rem;
+                        width: 2.2rem;
+                        height: 2.2rem;
+                        opacity: .8;
+                        margin-right: .5rem;
+
+                        @include mq('phone-small') { width: 5.8vw; min-width: 5.8vw; height: 5.8vw; }
+                    }
+
+                    span {
+                        min-width: 2rem;
+                        width: 2rem;
+                        height: 2rem;
+                        border: 1px solid #000;
+                        margin-right: 1rem;
+                        text-align: center;
+                        line-height: 2rem;
+                        font-size: 1.1rem;
+                        border-radius: 50%;
+
+                        @include mq('phone-small') { min-width: 5.3vw; width: 5.3vw; height: 5.3vw; line-height: 5.3vw; font-size: 2.9vw; }
+                    }
+
+                    .step-title {
+                        font-size: 1.2rem;
+                        white-space: nowrap;
+
+                        @include mq('phone-small') { font-size: 3.2vw; }
+                    }
+
+                    &.wait {
+                        opacity: .3;
+                    }
+                }
+            }
+        }
+	}
+    
+    .lg_trade_monthly_content {
+        font-size: 1.6rem;
+        padding: 4rem 0 0;
+        @include mq('tablet') { padding: 3rem 2.5rem; }
+        @include mq('phone-small') { padding: 8vw 6.7vw; font-size: 4.25vw; }
+        
+        .lg_trade_container_title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1.4;
+            @include mq('tablet') { font-size: 1.6rem; }
+            @include mq('phone-small') { font-size: 4.25vw; }
+        }
+        
+        .lg_trade_container_desc {
+            font-size: 1.7rem;
+            @include mq('tablet') { font-size: 1.5rem; }
+            @include mq('phone-small') { font-size: 4vw; }
+        }
+
+        .lg_trade_option {
+            margin: 3rem auto;
+            width: 75%;
+            position: relative;
+            @include mq('tablet') { margin: 3rem auto 0; width: 100%; }
+            @include mq('phone-small') { margin: 8vw auto 0; }
+
+            .option-selected {
+                position: absolute;
+                top: -2rem;
+                right: -2rem;
+                width: 4rem;
+                height: 4rem;
+                display: none;
+                @include mq('tablet') { width: 5rem; height: 5rem; }
+                @include mq('phone-small') { width: 13.3vw; height: 13.3vw; top: -5.3vw; right: -5.3vw; }
+            }
+
+            .lg_trade_set { @include mq('tablet') { max-width: 200px; } }
+
+            label {
+                width: 100%;
+                margin: 0;
+                padding: 2rem;
+                border-radius: .5rem;
+                border: .2rem solid #e9e9e9;
+                box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.2);
+                cursor: pointer;
+                height: 100%;
+                background: #fff;
+
+                @include mq('phone-small') { padding: 5.3vw; }
+
+                &.selected {
+                    border-color: $color_dark_red_approx !important;
+
+                    + .option-selected, .option-selected {
+                        display: block;
+                    }
+                }
+
+                p {
+                    font-weight: 500;
+                    margin: 0;
+                }
+
+                hr {
+                    width: 5rem;
+                    margin: 1.3rem auto;
+                    @include mq('phone-small') { margin: 3.45vw auto; }
+                }
+
+                .helper {
+                    font-size: 1.2rem;
+                    color: #464646;
+                    opacity: .9;
+                    line-height: 1.4;
+                    @include mq('tablet') { font-size: 1.3rem; }
+                    @include mq('phone-small') { font-size: 3.45vw; }
+                }
+
+                // Step 2
+                .product-trade-image {
+                    height: 12rem;
+                    margin-bottom: 1rem;
+                    @include mq('tablet') { height: 17rem; }
+                    @include mq('phone-small') { height: 45vw; }
+
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                        width: auto;
+                        height: auto;
+                        margin: 0 auto;
+                    }
+                }
+
+                .product-trade-bottom {
+                    .lg-brand {
+                        font-size: 1rem;
+                        color: #989898;
+                        @include mq('tablet') { font-size: 1.2rem; }
+                        @include mq('phone-wide') { word-break: break-word; }
+                        @include mq('phone-small') { font-size: 3.2vw; }
+                    }
+
+                    .lg-title {
+                        font-size: 1.2rem;
+                        color: #333;
+                        @include mq('tablet') { font-size: 1.8rem; }
+                        @include mq('phone-small') { font-size: 4.8vw; }
+                    }
+
+                    .lg-title-points {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                        top: auto;
+                        background-color: #E7E7E7;
+                        color: #000;
+                        opacity: .6;
+                        font-weight: 700;
+                        font-size: 1rem;
+                        padding: .5em;
+                        border-radius: 0 0 5px 5px;
+
+                        @include mq('tablet') { font-size: 1.2rem; }
+                        @include mq('phone-small') { font-size: 3.2vw; }
+
+                        + .lg-title {
+                            margin-bottom: 1rem;
+                            min-height: 4rem;
+                            @include mq('phone-small') { margin-bottom: 2.6vw; min-height: 10.5vw; }
+                        }
+                    }
+                }
+
+                .lg_trade_notice_points {
+                    font-size: 1rem;
+                    position: absolute;
+                    left: 1px;
+                    right: 1px;
+                    bottom: 0;
+                    top: auto;
+                    background-color: #f3f6f7;
+                    padding: 5px;
+                    border-radius: 0 0 5px 5px;
+
+                    @include mq('tablet') { font-size: 1.2rem; padding: .5rem 1rem; }
+                    @include mq('phone-small') { font-size: 3.2vw; padding: 1.3vw 2.6vw; }
+                }
+
+                &.trade-label {
+                    box-shadow: 0 2px 8px rgba(51, 51, 51, 0.25);
+                    border-color: transparent;
+                    position: relative;
+                }
+
+            }
+            
+            input {
+                position: absolute;
+                z-index: -1;
+                top: 50%;
+                opacity: 0;
+            }
+
+            // Step 4
+            .lg_small_title {
+                position: absolute;
+                font-size: .9rem;
+                white-space: nowrap;
+                padding: .5em 1em;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 700;
+
+                @include mq('tablet') {
+                    right: 1px !important;
+                    bottom: 1px !important;
+                    left: 1px !important;
+                    top: auto !important;
+                    border-radius: 0 0 5px 5px;
+                    padding: 1em;
+                    font-size: 1rem;
+                }
+
+                @include mq('phone-small') { font-size: 2.6vw; }
+            }
+
+            .product-trade-old .lg_small_title {
+                right: 100%;
+                bottom: 3rem;
+                background-color: #989898;
+                @include mq('phone-small') { bottom: 8vw; }
+            }
+            .product-trade-new .lg_small_title {
+                left: 100%;
+                top: 3rem;
+                background-color: $color_dark_red_approx;
+                @include mq('phone-small') { top: 8vw; }
+            }
+
+            .swap-image {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 9rem;
+                z-index: 2;
+                transform: translate(-50%, -50%);
+                @include mq('tablet') { width: 7rem; }
+                @include mq('phone-small') { width: 18.6vw; }
+            }
+
+            // step5
+            .content_bottom {
+                .notice_payment_title {
+                    font-size: 1.6rem;
+
+                    @include mq('tablet') {
+                        text-align: center;
+                        position: relative;
+                        padding-bottom: 2rem;
+                        margin-bottom: 3rem;
+                        line-height: 1.4 !important;
+                        margin-top: -1rem;
+
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            border-bottom: 1px solid #fff;
+                        }
+                    }
+                    @include mq('phone-small') { font-size: 4.25vw; padding-bottom: 5.3vw; margin-bottom: 8vw; margin-top: 2.6vw; }
+                }
+
+                .notice_payment_desc {
+                    font-size: 1.3rem;
+                    margin-top: 2rem;
+                    display: block;
+                    line-height: 1.4;
+
+                    @include mq('tablet') { font-size: 1.4rem; margin: 0; }
+                    @include mq('phone-small') { font-size: 3.7vw; }
+
+                    span {
+                        @include mq('tablet') {
+                            font-size: 1.2rem;
+                            display: block;
+                            margin-top: 1em;
+                            @include mq('phone-small') { font-size: 3.2vw; margin-top: 2.6vw; }
+                        }
+                    }
+                }
+            }
+        }
+    }
+        
+    .lg_trade_monthly_footer {
+        display: flex;
+        margin: 0 auto;
+        padding: 1rem 0 2.5rem;
+        @include mq('tablet') { padding: 0rem 2.5rem 3rem; flex-wrap: nowrap; }
+        @include mq('phone-small') { padding: 0 6.6vw 8vw; }
+
+        .btn-confirm {
+            min-width: 17rem;
+            @include mq('tablet') { width: 100%; min-width: auto; }
+
+            &.disabled {
+                background: $color_dark_red_approx !important;
+                opacity: .4;
+            }
+        }
+
+        .btn-return {
+            padding: 0 2em;
+            @include mq('phone-small') { padding: 0 5.3vw; }
+        }
+    }
+
+    @include mq('phablet') {
+        &.step2 {
+            .lg_trade_monthly_header {
+                .lg_trade_monthly_nav {
+                    ul {
+                        justify-content: flex-start;
+                    }
+                }
+            }
+        }
+        &.step3 {
+            .lg_trade_monthly_header {
+                .lg_trade_monthly_nav {
+                    ul {
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+        &.step4 {
+            .lg_trade_monthly_header {
+                .lg_trade_monthly_nav {
+                    ul {
+                        justify-content: flex-end;
+                    }
+                }
+            }
+        }
+    }
+
+    &.step2, &.step3 {
+        .lg_trade_monthly_content {
+            .lg_trade_option {
+                width: 80%;
+            }
+        }
+    }
+
+	&.step4 {
+		.lg_trade_content_header {
+			background: $color_black_0;
+        }
+        
+        .lg_trade_monthly_content {
+            .lg_trade_option {
+                label {
+                    .product-trade-bottom {
+                        .lg-title-points {
+                            left: 2px;
+                            right: 2px;
+                            bottom: 2px;
+                        }
+                    }
+
+                    @include mq('tablet') { 
+                        padding: 2rem 2rem 4rem;
+                        .product-trade-image { height: 10rem; }
+                        .product-trade-bottom {
+                            .lg-title { font-size: 1.4rem; }
+                            .lg-title-points {
+                                bottom: 3.5rem;
+        
+                                + .lg-title {
+                                    margin-bottom: 2.5rem;
+                                }
+                            }
+                        }
+                        .option-selected { width: 3.5rem; right: -1.5rem; }
+                    }
+                    @include mq('phone-small') {
+                        padding: 5.3vw 5.3vw 10.6vw;
+                        .product-trade-image { height: 26.6vw; }
+                        .product-trade-bottom {
+                            .lg-title { font-size: 3.73vw; }
+                            .lg-title-points {
+                                bottom: 9.3vw;
+
+                                + .lg-title { margin-bottom: 6.6vw; }
+                            }
+                        }
+                        .option-selected { width: 9.3vw; right: -4vw; }
+                    }
+                }
+            }
+        }
+
+		.lg_trade_monthly_footer {
+			
+			.action-previous {
+				text-align: left;
+				padding: 1vw 0 2vw;
+			}
+			
+			.action-next {
+				text-align: right;
+				padding: 1vw 0 2vw;
+			}
+		}
+	}
+	
+	&.step5 {
+        background-image: linear-gradient(to right, #f7afb8 0%, #a7deec 100%);
+
+		.lg_trade_monthly_header {
+            position: relative;
+
+            &:after {
+                content: '';
+                position: absolute;
+                left: 5rem;
+                right: 5rem;
+                bottom: 0;
+                border-bottom: 1px solid #fff;
+                @include mq('tablet') {left: 2.5rem; right: 2.5rem; }
+                @include mq('phone-small') { left: 6.6vw; right: 6.6vw; }
+            }
+		}
+		
+		.lg_trade_monthly_content {
+			.lg_trade_option  {
+				width: auto;
+                padding: 0 5rem 5rem;
+                margin: 0;
+                @include mq('tablet') {
+                    padding: 0;
+
+                    .right-col {
+                        max-width: 140px;
+                    }
+                }
+
+                @include mq('phone-small') {
+                    .right-col { max-width: 37.3vw;}
+                    .pr-5 { padding-right: 8vw !important; }
+                }
+
+                label {
+                    border-color: transparent !important;
+
+                    @include mq('tablet') { 
+                        .product-trade-image { height: 10rem; }
+                        .product-trade-bottom {
+                            .lg-title { font-size: 1.4rem; }
+                        }
+                        .option-selected { width: 3.5rem; right: -1.5rem; }
+                    }
+
+                    @include mq('phone-small') {
+                        .product-trade-image { height: 26.6vw; }
+                        .product-trade-bottom {
+                            .lg-title { font-size: 3.73vw; }
+                        }
+                        .option-selected { width: 9.3vw; right: -4vw; }
+                    }
+                }
+			}
+		}
+	}
+
+    &.step6 {
+        width: 50rem;
+
+        .lg_trade_monthly_content {
+            padding: 4rem 5rem 2rem;
+            @include mq('phone-small') { padding: 10.6vw 13.3vw 5.3vw; }
+        }
+    }
+
+	.lg_trade_carousel {
+        @include mq('tablet') { max-width: 250px; }
+
+        .owl-stage {
+            display: flex;
+            align-items: stretch;
+        }
+
+        .owl-item {
+            padding: 1.5rem 1.4rem;
+        }
+
+		.owl-nav {
+			top: 45%;
+            z-index: 99;
+            .owl-prev, .owl-next {
+                img {
+                    min-width: 11px !important;
+                }
+            }
+		}
+		
+		.owl-stage-outer {
+			z-index: 100;
+		}
+	}
+}

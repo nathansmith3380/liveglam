@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="76px" viewBox="0 0 120 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>badge_now shipping</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50.0008881%" x2="-3.48022775%" y2="50.0008941%" id="linearGradient-1">
+            <stop stop-color="#FF6D5B" offset="0%"></stop>
+            <stop stop-color="#FFB8AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.759612349%" y1="58.6824089%" x2="99.2403877%" y2="41.3175911%" id="linearGradient-2">
+            <stop stop-color="#FF7255" offset="0%"></stop>
+            <stop stop-color="#FD32A0" offset="49.4987355%"></stop>
+            <stop stop-color="#FF87B1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FF7255" offset="0%"></stop>
+            <stop stop-color="#FD32A0" offset="49.4987355%"></stop>
+            <stop stop-color="#FF87B1" offset="100%"></stop>
+        </linearGradient>
+        <path d="M85.8422411,29.68113 L34.6322379,38.7108353 C34.0883436,38.8067385 33.5696852,38.44357 33.473782,37.8996757 L30.0008185,18.2035206 C29.9049152,17.6596263 38.2680837,9.14096793 38.811978,9.04506469 L90.0219812,0.015359447 C90.5658755,-0.0805437933 91.0845339,0.282624719 91.1804371,0.826519022 L94.6534007,20.5226741 C94.7493039,21.0665684 86.3861354,29.5852268 85.8422411,29.68113 Z" id="path-4"></path>
+        <path d="M110.246174,58.4980799 C110.170602,58.5882487 110.065654,58.6488807 109.949791,58.6693104 L27.2260496,73.255738 C26.9541025,73.3036896 26.6947733,73.1221053 26.6468217,72.8501582 L23.00021,52.1691954 C22.9522583,51.8972482 31.1338426,43.637919 31.4057897,43.5899674 L114.106053,29.0076797 C114.378,28.9597281 114.637329,29.1413124 114.685281,29.4132595 C114.706209,29.5319519 114.683561,29.6542095 114.621505,29.7575289 L108.029676,40.7324507 C107.903001,40.9433551 107.948575,41.2150712 108.13713,41.3731031 L118.18414,49.7936995 C118.39578,49.9710786 118.065654,50.6488807 117.949791,50.6693104 C112.932299,55.7473971 110.364427,58.356987 110.246174,58.4980799 Z" id="path-5"></path>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#FF7255" offset="0%"></stop>
+            <stop stop-color="#FD32A0" offset="49.4987355%"></stop>
+            <stop stop-color="#FF87B1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="badge_now-shipping" transform="translate(0.000000, 1.000000)">
+            <g id="Group-84-Copy-4" transform="translate(15.000000, 37.000000)">
+                <rect id="Rectangle-10-Copy" fill="#FFFFFF" transform="translate(12.078165, 3.560990) rotate(-10.000000) translate(-12.078165, -3.560990) " x="0.0781653026" y="2.06098976" width="24" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-10" fill="url(#linearGradient-1)" transform="translate(11.991341, 3.068586) rotate(-10.000000) translate(-11.991341, -3.068586) " x="-0.00865878619" y="2.06858589" width="24" height="2" rx="1"></rect>
+            </g>
+            <g id="Group-84" transform="translate(0.000000, 10.000000)">
+                <rect id="Rectangle-10-Copy" fill="#FFFFFF" transform="translate(18.078165, 5.560990) rotate(-10.000000) translate(-18.078165, -5.560990) " x="0.0781653026" y="4.06098976" width="36" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-10" fill="url(#linearGradient-1)" transform="translate(17.991341, 5.068586) rotate(-10.000000) translate(-17.991341, -5.068586) " x="-0.00865878619" y="4.06858589" width="36" height="2" rx="1"></rect>
+            </g>
+            <g id="Combined-Shape">
+                <use fill="#FFFFFF" xlink:href="#path-4"></use>
+                <use stroke="url(#linearGradient-3)" stroke-width="2" fill-opacity="0.3" fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+            </g>
+            <g id="Group-84-Copy-2" transform="translate(5.000000, 25.000000)">
+                <rect id="Rectangle-10-Copy" fill="#FFFFFF" transform="translate(12.078165, 3.560990) rotate(-10.000000) translate(-12.078165, -3.560990) " x="0.0781653026" y="2.06098976" width="24" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-10" fill="url(#linearGradient-1)" transform="translate(11.991341, 3.068586) rotate(-10.000000) translate(-11.991341, -3.068586) " x="-0.00865878619" y="2.06858589" width="24" height="2" rx="1"></rect>
+            </g>
+            <g id="Group-84-Copy-3" transform="translate(14.000000, 29.000000)">
+                <rect id="Rectangle-10-Copy" fill="#FFFFFF" transform="translate(12.078165, 3.560990) rotate(-10.000000) translate(-12.078165, -3.560990) " x="0.0781653026" y="2.06098976" width="24" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-10" fill="url(#linearGradient-1)" transform="translate(11.991341, 3.068586) rotate(-10.000000) translate(-11.991341, -3.068586) " x="-0.00865878619" y="2.06858589" width="24" height="2" rx="1"></rect>
+            </g>
+            <path d="M40.4999393,5.52138608 L40.4999393,25.5213861 L92.4999393,25.5213861 L92.4999393,5.52138608 L40.4999393,5.52138608 Z" id="Rectangle-11-Copy-4" stroke="url(#linearGradient-3)" stroke-width="2" fill="url(#linearGradient-3)" transform="translate(66.499939, 15.521386) rotate(-10.000000) translate(-66.499939, -15.521386) "></path>
+            <g id="Group-84-Copy" transform="translate(9.000000, 15.000000)">
+                <rect id="Rectangle-10-Copy" fill="#FFFFFF" transform="translate(18.078165, 5.560990) rotate(-10.000000) translate(-18.078165, -5.560990) " x="0.0781653026" y="4.06098976" width="36" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-10" fill="url(#linearGradient-1)" transform="translate(17.991341, 5.068586) rotate(-10.000000) translate(-17.991341, -5.068586) " x="-0.00865878619" y="4.06858589" width="36" height="2" rx="1"></rect>
+            </g>
+            <text id="NOW-Copy" transform="translate(66.424187, 14.863117) rotate(-10.000000) translate(-66.424187, -14.863117) " font-family="BrandonGrotesque-Bold, Brandon Grotesque" font-size="15" font-weight="bold" fill="#FFFFFF">
+                <tspan x="47.9216867" y="19.8631171">NOW</tspan>
+            </text>
+            <path d="M31.0450551,43.6403916 L114.195229,29 L118,50.5466873 L113.138301,58.314143 C113.063166,58.4341856 112.940649,58.5167356 112.801177,58.5412927 L30.7312422,72.9914848 C30.4592832,73.0393691 30.199999,72.8577206 30.1521147,72.5857616 C30.1312163,72.4670692 30.153892,72.3448224 30.2159681,72.241521 L36.9898197,60.9690933 L26.1799743,51.9145463 C25.9886586,51.7542963 25.9448028,51.4775123 26.0772088,51.2659694 L30.7079308,43.8675414 C30.7830662,43.7474987 30.9055828,43.6649487 31.0450551,43.6403916 Z" id="Combined-Shape-Copy-5" fill="#FFFFFF" opacity="0.270758929" transform="translate(72.000000, 51.000000) scale(-1, -1) translate(-72.000000, -51.000000) "></path>
+            <g id="Combined-Shape">
+                <use fill="#FFFFFF" xlink:href="#path-5"></use>
+                <use stroke="url(#linearGradient-3)" stroke-width="2" fill-opacity="0.3" fill="url(#linearGradient-2)" xlink:href="#path-5"></use>
+            </g>
+            <path d="M35.5948592,65 L27,72.860054" id="Path-5" stroke="#FE6A5E"></path>
+            <path d="M32.764571,36.2129328 L116.764459,36.2129328 C117.040602,36.2129328 117.264459,36.4367905 117.264459,36.7129328 L117.264459,57.7129328 C117.264459,57.9890752 117.040602,58.2129328 116.764459,58.2129328 L32.7884115,58.2129328 C32.5122691,58.2129328 32.2884115,57.9890752 32.2884115,57.7129328 C32.2884115,57.5924095 32.3319455,57.475942 32.4110003,57.3849682 L40.8084599,47.7214393 C40.9698334,47.5357358 40.9721347,47.2602338 40.8138859,47.0718605 L32.3817337,37.034547 C32.2041112,36.8231118 32.2315217,36.5077182 32.4429568,36.3300956 C32.5330386,36.2544197 32.6469208,36.2129328 32.764571,36.2129328 Z" id="Rectangle-11-Copy-3" stroke="url(#linearGradient-6)" stroke-width="2" fill="url(#linearGradient-6)" transform="translate(74.764459, 47.212933) scale(-1, -1) rotate(-10.000000) translate(-74.764459, -47.212933) "></path>
+            <text id="SHIPPING-Copy" transform="translate(71.378401, 47.910572) rotate(-10.000000) translate(-71.378401, -47.910572) " font-family="BrandonGrotesque-Bold, Brandon Grotesque" font-size="15" font-weight="bold" fill="#FFFFFF">
+                <tspan x="36.8334013" y="52.9105715">SHIPPING</tspan>
+            </text>
+            <path d="M42.7418753,30.0839853 L34.1470161,37.9440393" id="Path-5" stroke="#FE6A5E"></path>
+        </g>
+    </g>
+</svg>

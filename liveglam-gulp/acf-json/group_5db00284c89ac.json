@@ -1,0 +1,124 @@
+{
+    "key": "group_5db00284c89ac",
+    "title": "3rd Party Scripts Setting",
+    "fields": [
+        {
+            "key": "field_5db0029e8f732",
+            "label": "3rd Party Scripts",
+            "name": "3rd_party_scripts",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5db007848f733",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5db007848f733",
+                    "label": "Script Content",
+                    "name": "script_content",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 4,
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5db007a08f734",
+                    "label": "Script Position",
+                    "name": "script_position",
+                    "type": "true_false",
+                    "instructions": "Position to show script: header\/footer",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "Header",
+                    "ui_off_text": "Footer"
+                },
+                {
+                    "key": "field_5db028b8f048e",
+                    "label": "Enable/Disable script",
+                    "name": "enable_script",
+                    "type": "true_false",
+                    "instructions": "Enable/Disable script on page",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "Show",
+                    "ui_off_text": "Hide"
+                },
+                {
+                    "key": "field_5db0083c8f735",
+                    "label": "Show On Page",
+                    "name": "show_on_page",
+                    "type": "post_object",
+                    "instructions": "Select pages to show script. Leave empty to show on all pages",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "page"
+                    ],
+                    "taxonomy": "",
+                    "allow_null": 0,
+                    "multiple": 1,
+                    "return_format": "id",
+                    "ui": 1
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "dashboard-setting"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1571825915
+}

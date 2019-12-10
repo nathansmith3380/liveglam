@@ -1,0 +1,239 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/02/2016 14:49
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-aztec-necklace:before { content: "\f100"; }
+.flaticon-bathroom-tube:before { content: "\f101"; }
+.flaticon-beautician:before { content: "\f102"; }
+.flaticon-beauty-salon:before { content: "\f103"; }
+.flaticon-big-diamond:before { content: "\f104"; }
+.flaticon-big-hairpin:before { content: "\f105"; }
+.flaticon-big-hand-bag:before { content: "\f106"; }
+.flaticon-big-lips:before { content: "\f107"; }
+.flaticon-big-mustache:before { content: "\f108"; }
+.flaticon-botox:before { content: "\f109"; }
+.flaticon-bowl-with-spoon:before { content: "\f10a"; }
+.flaticon-circular-sunglasses:before { content: "\f10b"; }
+.flaticon-closed-envelope-with-white-circle:before { content: "\f10c"; }
+.flaticon-closed-scissors:before { content: "\f10d"; }
+.flaticon-cosmetic-tools:before { content: "\f10e"; }
+.flaticon-cosmetics-products:before { content: "\f10f"; }
+.flaticon-cowgirl-hat:before { content: "\f110"; }
+.flaticon-curler:before { content: "\f111"; }
+.flaticon-curling-hair:before { content: "\f112"; }
+.flaticon-dark-pants:before { content: "\f113"; }
+.flaticon-diamond-ring:before { content: "\f114"; }
+.flaticon-disposable-razor:before { content: "\f115"; }
+.flaticon-electric-hairdryer:before { content: "\f116"; }
+.flaticon-electric-shaver:before { content: "\f117"; }
+.flaticon-electric-shaver-1:before { content: "\f118"; }
+.flaticon-epilator:before { content: "\f119"; }
+.flaticon-excersive-bike:before { content: "\f11a"; }
+.flaticon-face-cream:before { content: "\f11b"; }
+.flaticon-flanges-mascara:before { content: "\f11c"; }
+.flaticon-gemstone:before { content: "\f11d"; }
+.flaticon-gift-box-with-lace:before { content: "\f11e"; }
+.flaticon-hair-brush:before { content: "\f11f"; }
+.flaticon-hair-clipper:before { content: "\f120"; }
+.flaticon-hair-spray-bottle:before { content: "\f121"; }
+.flaticon-hairdresser-scissors:before { content: "\f122"; }
+.flaticon-hairpin:before { content: "\f123"; }
+.flaticon-hand-brush:before { content: "\f124"; }
+.flaticon-hand-cream:before { content: "\f125"; }
+.flaticon-hand-mirror:before { content: "\f126"; }
+.flaticon-hanger-with-towel:before { content: "\f127"; }
+.flaticon-high-heels:before { content: "\f128"; }
+.flaticon-iron-for-hair:before { content: "\f129"; }
+.flaticon-long-dress:before { content: "\f12a"; }
+.flaticon-lotion-bottle:before { content: "\f12b"; }
+.flaticon-luxury-watch:before { content: "\f12c"; }
+.flaticon-make-up-brush:before { content: "\f12d"; }
+.flaticon-make-up-mirror:before { content: "\f12e"; }
+.flaticon-makeup-brush:before { content: "\f12f"; }
+.flaticon-makeup-case:before { content: "\f130"; }
+.flaticon-makeup-case-1:before { content: "\f131"; }
+.flaticon-makeup-chest:before { content: "\f132"; }
+.flaticon-manicure:before { content: "\f133"; }
+.flaticon-martini-glass-with-straw:before { content: "\f134"; }
+.flaticon-men-comb:before { content: "\f135"; }
+.flaticon-modern-haicut:before { content: "\f136"; }
+.flaticon-mudpack:before { content: "\f137"; }
+.flaticon-nail-polish:before { content: "\f138"; }
+.flaticon-nail-polish-1:before { content: "\f139"; }
+.flaticon-open-fan:before { content: "\f13a"; }
+.flaticon-open-razor:before { content: "\f13b"; }
+.flaticon-opened-black-umbrella:before { content: "\f13c"; }
+.flaticon-pair-of-sneakers:before { content: "\f13d"; }
+.flaticon-perfume-bottle:before { content: "\f13e"; }
+.flaticon-pocket-mirror:before { content: "\f13f"; }
+.flaticon-powder:before { content: "\f140"; }
+.flaticon-powder-and-mirror:before { content: "\f141"; }
+.flaticon-rosary:before { content: "\f142"; }
+.flaticon-round-perfume-bottle:before { content: "\f143"; }
+.flaticon-scales-with-forty-kilograms:before { content: "\f144"; }
+.flaticon-shave-blade:before { content: "\f145"; }
+.flaticon-short-skirt:before { content: "\f146"; }
+.flaticon-shower-with-drops:before { content: "\f147"; }
+.flaticon-soap-and-bubbles:before { content: "\f148"; }
+.flaticon-soap-for-hands:before { content: "\f149"; }
+.flaticon-solarium:before { content: "\f14a"; }
+.flaticon-spa-stones:before { content: "\f14b"; }
+.flaticon-spray-bottle:before { content: "\f14c"; }
+.flaticon-suit-on-hanger:before { content: "\f14d"; }
+.flaticon-sun-and-deck-chair:before { content: "\f14e"; }
+.flaticon-swimming-pool-with-ladder:before { content: "\f14f"; }
+.flaticon-thick-brush:before { content: "\f150"; }
+.flaticon-thin-comb:before { content: "\f151"; }
+.flaticon-tie-tied:before { content: "\f152"; }
+.flaticon-tongs:before { content: "\f153"; }
+.flaticon-tooth-paste-and-brush:before { content: "\f154"; }
+.flaticon-towel-with-hanger:before { content: "\f155"; }
+.flaticon-treatment-chair:before { content: "\f156"; }
+.flaticon-two-earrings:before { content: "\f157"; }
+.flaticon-two-hairpins:before { content: "\f158"; }
+.flaticon-two-lighting-candles:before { content: "\f159"; }
+.flaticon-two-pieces-swimsuit:before { content: "\f15a"; }
+.flaticon-two-side-comb:before { content: "\f15b"; }
+.flaticon-vintage-woman-hat:before { content: "\f15c"; }
+.flaticon-wedding-bow-tie:before { content: "\f15d"; }
+.flaticon-weightlift:before { content: "\f15e"; }
+.flaticon-women-comb:before { content: "\f15f"; }
+.flaticon-women-handbag:before { content: "\f160"; }
+.flaticon-women-hells:before { content: "\f161"; }
+.flaticon-women-lipstick:before { content: "\f162"; }
+.flaticon-wooden-hairpin:before { content: "\f163"; }
+    
+    $font-Flaticon-aztec-necklace: "\f100";
+    $font-Flaticon-bathroom-tube: "\f101";
+    $font-Flaticon-beautician: "\f102";
+    $font-Flaticon-beauty-salon: "\f103";
+    $font-Flaticon-big-diamond: "\f104";
+    $font-Flaticon-big-hairpin: "\f105";
+    $font-Flaticon-big-hand-bag: "\f106";
+    $font-Flaticon-big-lips: "\f107";
+    $font-Flaticon-big-mustache: "\f108";
+    $font-Flaticon-botox: "\f109";
+    $font-Flaticon-bowl-with-spoon: "\f10a";
+    $font-Flaticon-circular-sunglasses: "\f10b";
+    $font-Flaticon-closed-envelope-with-white-circle: "\f10c";
+    $font-Flaticon-closed-scissors: "\f10d";
+    $font-Flaticon-cosmetic-tools: "\f10e";
+    $font-Flaticon-cosmetics-products: "\f10f";
+    $font-Flaticon-cowgirl-hat: "\f110";
+    $font-Flaticon-curler: "\f111";
+    $font-Flaticon-curling-hair: "\f112";
+    $font-Flaticon-dark-pants: "\f113";
+    $font-Flaticon-diamond-ring: "\f114";
+    $font-Flaticon-disposable-razor: "\f115";
+    $font-Flaticon-electric-hairdryer: "\f116";
+    $font-Flaticon-electric-shaver: "\f117";
+    $font-Flaticon-electric-shaver-1: "\f118";
+    $font-Flaticon-epilator: "\f119";
+    $font-Flaticon-excersive-bike: "\f11a";
+    $font-Flaticon-face-cream: "\f11b";
+    $font-Flaticon-flanges-mascara: "\f11c";
+    $font-Flaticon-gemstone: "\f11d";
+    $font-Flaticon-gift-box-with-lace: "\f11e";
+    $font-Flaticon-hair-brush: "\f11f";
+    $font-Flaticon-hair-clipper: "\f120";
+    $font-Flaticon-hair-spray-bottle: "\f121";
+    $font-Flaticon-hairdresser-scissors: "\f122";
+    $font-Flaticon-hairpin: "\f123";
+    $font-Flaticon-hand-brush: "\f124";
+    $font-Flaticon-hand-cream: "\f125";
+    $font-Flaticon-hand-mirror: "\f126";
+    $font-Flaticon-hanger-with-towel: "\f127";
+    $font-Flaticon-high-heels: "\f128";
+    $font-Flaticon-iron-for-hair: "\f129";
+    $font-Flaticon-long-dress: "\f12a";
+    $font-Flaticon-lotion-bottle: "\f12b";
+    $font-Flaticon-luxury-watch: "\f12c";
+    $font-Flaticon-make-up-brush: "\f12d";
+    $font-Flaticon-make-up-mirror: "\f12e";
+    $font-Flaticon-makeup-brush: "\f12f";
+    $font-Flaticon-makeup-case: "\f130";
+    $font-Flaticon-makeup-case-1: "\f131";
+    $font-Flaticon-makeup-chest: "\f132";
+    $font-Flaticon-manicure: "\f133";
+    $font-Flaticon-martini-glass-with-straw: "\f134";
+    $font-Flaticon-men-comb: "\f135";
+    $font-Flaticon-modern-haicut: "\f136";
+    $font-Flaticon-mudpack: "\f137";
+    $font-Flaticon-nail-polish: "\f138";
+    $font-Flaticon-nail-polish-1: "\f139";
+    $font-Flaticon-open-fan: "\f13a";
+    $font-Flaticon-open-razor: "\f13b";
+    $font-Flaticon-opened-black-umbrella: "\f13c";
+    $font-Flaticon-pair-of-sneakers: "\f13d";
+    $font-Flaticon-perfume-bottle: "\f13e";
+    $font-Flaticon-pocket-mirror: "\f13f";
+    $font-Flaticon-powder: "\f140";
+    $font-Flaticon-powder-and-mirror: "\f141";
+    $font-Flaticon-rosary: "\f142";
+    $font-Flaticon-round-perfume-bottle: "\f143";
+    $font-Flaticon-scales-with-forty-kilograms: "\f144";
+    $font-Flaticon-shave-blade: "\f145";
+    $font-Flaticon-short-skirt: "\f146";
+    $font-Flaticon-shower-with-drops: "\f147";
+    $font-Flaticon-soap-and-bubbles: "\f148";
+    $font-Flaticon-soap-for-hands: "\f149";
+    $font-Flaticon-solarium: "\f14a";
+    $font-Flaticon-spa-stones: "\f14b";
+    $font-Flaticon-spray-bottle: "\f14c";
+    $font-Flaticon-suit-on-hanger: "\f14d";
+    $font-Flaticon-sun-and-deck-chair: "\f14e";
+    $font-Flaticon-swimming-pool-with-ladder: "\f14f";
+    $font-Flaticon-thick-brush: "\f150";
+    $font-Flaticon-thin-comb: "\f151";
+    $font-Flaticon-tie-tied: "\f152";
+    $font-Flaticon-tongs: "\f153";
+    $font-Flaticon-tooth-paste-and-brush: "\f154";
+    $font-Flaticon-towel-with-hanger: "\f155";
+    $font-Flaticon-treatment-chair: "\f156";
+    $font-Flaticon-two-earrings: "\f157";
+    $font-Flaticon-two-hairpins: "\f158";
+    $font-Flaticon-two-lighting-candles: "\f159";
+    $font-Flaticon-two-pieces-swimsuit: "\f15a";
+    $font-Flaticon-two-side-comb: "\f15b";
+    $font-Flaticon-vintage-woman-hat: "\f15c";
+    $font-Flaticon-wedding-bow-tie: "\f15d";
+    $font-Flaticon-weightlift: "\f15e";
+    $font-Flaticon-women-comb: "\f15f";
+    $font-Flaticon-women-handbag: "\f160";
+    $font-Flaticon-women-hells: "\f161";
+    $font-Flaticon-women-lipstick: "\f162";
+    $font-Flaticon-wooden-hairpin: "\f163";

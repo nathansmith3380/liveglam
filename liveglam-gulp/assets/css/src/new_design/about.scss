@@ -1,0 +1,462 @@
+@import '../constants.scss';
+
+
+/* ----------------------------------------------------------
+
+	About Page
+
+------------------------------------------------------------- */
+
+/* ============= General ============= */
+.about-page {
+
+	.container {
+		width: 1200px;
+		max-width: 100%;
+	}
+	.about-tag {
+		color: $color_dark_red_approx;
+		font-weight: 500;
+		letter-spacing: 0.37em;
+		text-transform: uppercase;
+		margin: 1em 0;
+	}
+	.section-title {
+		font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+		font-weight: 700;
+		line-height: 1.11;
+		margin-bottom: .5em;
+	}
+	.section-cta {
+		text-align: center;
+		margin-top: 60px;
+	}
+	p {
+		line-height: 1.6;
+	}
+	.flex-group {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}
+
+/* ============= Hero Section ============= */
+.about-hero {
+	background: url(../../img/about-hero-bg@2x.png) no-repeat calc(50vw - 200px) bottom,
+				linear-gradient(-42deg, $color_vague_pink_approx 0%, $color_orange_light 100%);
+	height: 560px;
+	display: flex;
+	align-items: center;
+	background-size: auto 90%, auto;
+
+	.hero-title {
+		color: $color_text_primary;
+		font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+		font-weight: 700;
+		letter-spacing: -1.5px;
+		line-height: 1.17;
+		margin-right: 5%;
+	}
+}
+
+/* ============= Review Section ============= */
+.about-review {
+	padding: 70px 0;
+	background: $color_black;
+	color: $color_white;
+
+	p {
+		font-weight: 300;
+		letter-spacing: 1px;
+		line-height: 1.3;
+		margin-bottom: 1em;
+	}
+	.flex-group .flex-item{
+		width: 25%;
+	}
+	.review-value {
+		color: $color_orange;
+		font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+		font-size: 50px;
+		font-weight: 900;
+		letter-spacing: 4px;
+	}
+	.about-tag {
+		color: $color_orange;
+		margin-top: .5em;
+	}	
+}
+
+/* ============= Mission Section ============= */
+.about-mission {
+	background: url(../../img/about_mission_bg@2x.png) no-repeat center center;
+	padding: 60px 0;
+
+	.content {
+		background: $color_white;
+		padding: 60px 0;
+
+		.skew-bg {
+			width: 600px;
+			max-width: 90%;
+			padding: 20px;
+			box-shadow: -10px 10px 0 $color_sail_blue_approx;
+			background-color: $color_vague_pink_approx;
+			-webkit-transform: skew(-20deg, 0deg);
+			transform: skew(-20deg, 0deg);
+			margin: 0 auto;
+			text-align: center;
+
+			.text {
+				font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+				font-weight: 700;
+				letter-spacing: .05em;
+				line-height: 0.86em;
+				-webkit-transform: skew(20deg, 0deg);
+				transform: skew(20deg, 0deg);
+			}
+		}
+		
+		p {
+			font-weight: 600;
+			letter-spacing: 1px;
+			line-height: 1.3;
+			margin: 1.5em 5% 0;
+		}
+	}
+}
+
+/* ============= Loved products Section ============= */
+.about-loved-products {
+	background-color: $color_vague_pink_approx;
+	padding: 90px 0;
+
+	.flex-group {
+		position: relative;
+		margin-top: 100px;
+
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 25px;
+			bottom: 25px;
+			border: 3px solid $color_white;
+		}
+		.flex-item {
+			width: 45%;
+
+			.product-logo {
+				max-height: 70px;
+				max-width: 100%;
+			}
+			.img-with-bg {
+				width: 90%;
+				height: 500px;
+				position: relative;
+
+				img {
+					position: absolute;
+				}
+			}
+		}
+		
+		&.product-brush, 
+		&.product-shadow {
+			.flex-item:first-child {
+				padding: 50px 10px 50px 50px;
+			}
+		}
+		&.product-lipstick {
+			.flex-item:last-child {
+				padding: 50px 50px 50px 10px;
+			}
+		}
+		&.product-brush {
+			.flex-item {
+				.img-with-bg {
+					background-image: linear-gradient(134deg, #eea27d 0%, #e8c0a9 100%);
+
+					img {
+						right: 0;
+						top: 15px;
+						width: 120%;
+					}
+				}
+			}
+		}
+		&.product-lipstick {
+			.flex-item {
+				.img-with-bg {
+					background-image: linear-gradient(215deg, #da797d 0%, #f1b5c3 100%);
+					float: right;
+
+					img {
+						left: 0;
+						bottom: 0;
+						height: 110%;
+					}
+				}
+			}
+		}
+		&.product-shadow {
+			.flex-item {
+				.img-with-bg {
+					background-image: linear-gradient(215deg, #dda394 0%, #dfc8be 100%);
+
+					img {
+						right: 0;
+						bottom: 0;
+						height: 110%;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ============= Studio Section ============= */
+
+.about-studios {
+	padding-top: 80px;
+
+	p {
+		margin: 2em 0;
+	}
+	img {
+		max-width: 100%;
+	}
+}
+
+/* ============= Reponsive Section ============= */
+
+@media (max-width: $screen-lg-max) {
+	/* General */
+	.about-page {
+		.section-cta {
+			margin-top: 5vw;
+		}
+	}
+
+	/* Hero Section */
+	.about-hero {
+		background-position: left calc(50vw - 18vw) bottom, center;
+		height: 46.67vw;
+
+		.hero-title {
+			letter-spacing: -0.125vw;
+		}
+	}
+
+	/* Review Section */
+	.about-review {
+		padding: 5.83vw 0;
+
+		p {
+			letter-spacing: 0.083vw;
+		}
+		.review-value {
+			font-size: 4.17vw;
+			letter-spacing: 0.33vw;
+		}
+	}
+
+	/* Mission Section */
+	.about-mission {
+		padding: 5vw 0;
+
+		.content {
+			padding: 5vw 0;
+
+			.skew-bg {
+				width: 50vw;
+				padding: 1.67vw;
+				box-shadow: -0.83vw 0.83vw 0 $color_sail_blue_approx;
+			}
+			p {
+				letter-spacing: 0.083vw;
+			}
+		}
+	}
+	
+
+	/* Loved products Section */
+	.about-loved-products {
+		padding: 7.5vw 0;
+
+		.flex-group {
+			margin-top: 8.33vw;
+
+			&:before {
+				top: 2.08vw;
+				bottom: 2.08vw;
+				border: 0.25vw solid $color_white;
+			}
+			.flex-item {
+				.product-logo {
+					max-height: 5.83vw;
+				}
+				.img-with-bg {
+					height: 41.67vw;
+				}
+			}
+			&.product-brush,
+			&.product-shadow {
+				.flex-item:first-child {
+					padding: 4.17vw 0.83vw 4.17vw 4.17vw;
+				}
+			}
+			&.product-lipstick {
+				.flex-item:last-child {
+					padding: 4.17vw 4.17vw 4.17vw 0.83vw;
+				}
+			}
+			&.product-brush {
+				.flex-item {
+					.img-with-bg {
+						img {
+							top: 1.25vw;
+						}
+					}
+				}
+			}
+		}
+	} 
+
+	/* Studio Section */
+	.about-studios {
+		padding-top: 6.67vw;
+	}
+}
+
+@media (max-width: $screen-sm-max) {
+
+	/* General */
+	.about-page {
+		.about-tag {
+			letter-spacing: 3px;
+			font-weight: 400;
+		}
+		.section-title {
+			letter-spacing: 1.3px;
+			line-height: 34px;
+		}
+		.section-cta {
+			margin: 30px 0;
+		}
+	}
+
+	/* Hero Section */
+	.about-hero {
+		background: url(../../img/about-hero-bg@2x_600.png) no-repeat center bottom,
+					linear-gradient(-7deg, $color_vague_pink_approx 0%, $color_orange_light 100%);
+		height: auto;
+		display: block;
+		padding-top: 50px;
+		text-align: center;
+		padding: 50px 0 280px 0;
+		background-size: auto 250px, cover;
+
+		.hero-title {
+			letter-spacing: -1px;
+			line-height: 40px;
+		}
+	}
+
+	/* Review Section */
+	.about-review {
+		padding: 30px 0;
+
+		.review-value {
+			font-size: 40px;
+			letter-spacing: 3px;
+		}
+		.flex-group .flex-item {
+			width: 50%;
+		}
+		.about-tag {
+			color: $color_white;
+		}
+	}
+
+	/* Mission Section */
+	.about-mission {
+		background: none;
+		padding: 0;
+
+		.content {
+			padding: 20px 0;
+		}
+		.content .skew-bg {
+			box-shadow: -10px 10px 0 $color_sail_blue_approx;
+			width: auto;
+			padding: 0 20px;
+			display: inline-block;
+		}
+		.content .skew-bg .text {
+			line-height: 2;
+		}
+		.content p {
+			margin: 1em 0 0;
+		}
+	}
+
+	/* Loved products Section */
+	.about-loved-products {
+		padding: 1px 0;
+
+		.container {
+			padding: 0;
+		}
+		.section-title {
+			display: none;
+		}
+		.flex-group {
+			margin: 0;
+
+			&:before {
+				content: none;
+			}
+			.flex-item {
+				width: 100%;
+			}
+			.flex-item .product-logo {
+				max-height: 40px;
+			}
+			.flex-item .img-with-bg {
+				width: 100%;
+				height: 260px;
+			}
+			&.product-lipstick {
+				flex-direction: column-reverse;
+			}
+			&.product-brush .flex-item:first-child,
+			&.product-shadow .flex-item:first-child,
+			&.product-lipstick .flex-item:last-child {
+				padding: 50px 10%;
+			}
+			&.product-brush .flex-item .img-with-bg img {
+				max-height: 80%;
+				width: auto;
+				top: 10%;
+			}
+		}
+	}
+
+	/* Studio Section */
+	.about-studios {
+		padding-top: 30px;
+
+		p {
+			margin: 0;
+		}
+		img {
+			max-height: 500px;
+			margin: 0 auto;
+			margin-top: 30px;
+		}
+	}
+}

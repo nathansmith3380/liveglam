@@ -1,0 +1,410 @@
+{
+    "key": "group_5betkd99ebab0",
+    "title": "Sale Setting",
+    "fields": [
+        {
+            "key": "field_5dc3a188ab174",
+            "label": "LDM Holiday",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5cn2c04323e37",
+            "label": "Show new header",
+            "name": "ldmpt_show_header",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5cn2c04323q36",
+            "label": "Show new design on homepage page",
+            "name": "ldmpt_show_new_design",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5cn2c04323q37",
+            "label": "Show new design on referral page",
+            "name": "ldmpt_show_new_design_referral",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5cn2c04323q38",
+            "label": "Show new design as SOLD OUT",
+            "name": "ldmpt_show_sold_out",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5cn2c04323q99",
+            "label": "Show Banner sale on Dashboard",
+            "name": "ldmpt_show_banner_sale",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5dce4f48208bb",
+            "label": "LG Holiday 2019",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5dce4f80208bc",
+            "label": "Show new design on homepage page",
+            "name": "ldmpt_show_new_design_lg",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5dce4fb0208bf",
+            "label": "Show Banner sale on Dashboard",
+            "name": "ldmpt_show_banner_sale_lg",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5dc3a1d2ab175",
+            "label": "BFCM SALE",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5dc3e716a7255",
+            "label": "Show new design on homepage page",
+            "name": "ldmpt_show_new_design_bfcm",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5dc3e74fa7256",
+            "label": "Show new design on referral page",
+            "name": "ldmpt_show_new_design_referral_bfcm",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5cn2c04323q39",
+            "label": "Show new design on pre-checkout",
+            "name": "ldmpt_show_new_design_preck",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5dc3e7d4a7258",
+            "label": "Show new design as SOLD OUT",
+            "name": "ldmpt_show_sold_out_bfcm",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5dc3e7f0a7259",
+            "label": "Show Banner sale on Dashboard",
+            "name": "ldmpt_show_banner_sale_bfcm1",
+            "type": "true_false",
+            "instructions": "Subscription Banner",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5dc3e84fd5164",
+            "label": "Show Banner sale on Dashboard",
+            "name": "ldmpt_show_banner_sale_bfcm2",
+            "type": "true_false",
+            "instructions": "Shop Banner",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+          "key": "field_5dc3e84fd5165",
+          "label": "Time start BFCM",
+          "name": "start_bfcm2019",
+          "type": "date_time_picker",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "display_format": "Y-m-d H:i:s",
+          "return_format": "Y-m-d H:i:s",
+          "first_day": 1
+        },
+        {
+          "key": "field_5dc3e84fd5166",
+          "label": "Time end BFCM",
+          "name": "end_bfcm2019",
+          "type": "date_time_picker",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "display_format": "Y-m-d H:i:s",
+          "return_format": "Y-m-d H:i:s",
+          "first_day": 1
+        },
+        {
+          "key": "field_5dc3e716a7256",
+          "label": "Show OH Martha design on homepage page",
+          "name": "ldmpt_show_new_design_om",
+          "type": "true_false",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "message": "",
+          "default_value": 0,
+          "ui": 1,
+          "ui_on_text": "",
+          "ui_off_text": ""
+        },
+        {
+          "key": "field_5dc3e74fa7257",
+          "label": "Show OH Martha design on referral page",
+          "name": "ldmpt_show_new_design_referral_om",
+          "type": "true_false",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "message": "",
+          "default_value": 0,
+          "ui": 1,
+          "ui_on_text": "",
+          "ui_off_text": ""
+        },
+        {
+          "key": "field_5dc3e74fa7258",
+          "label": "Show OH Martha design as SOLD OUT",
+          "name": "ldmpt_show_sold_out_om",
+          "type": "true_false",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "message": "",
+          "default_value": 0,
+          "ui": 1,
+          "ui_on_text": "",
+          "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "ldm-party-setting"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1573802022
+}

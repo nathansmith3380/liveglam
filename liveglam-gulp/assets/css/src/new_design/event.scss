@@ -1,0 +1,1089 @@
+@import '../constants.scss';
+
+
+/* ----------------------------------------------------------
+
+	Events style
+
+------------------------------------------------------------- */
+
+/** style for sale leslie **/
+.homepage-countdown {
+	position: relative;
+	background: linear-gradient(180deg, $color_countdown_1 0, $color_countdown_2 75%);
+
+	img {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.kmsale_option {
+		display: inline-flex;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		left: 80%;
+		width: 30%;
+
+		&.kmsale_countdown {
+			.time-item {
+				margin: 0 auto;
+				text-align: center;
+		
+				span {
+					&.time-item-title {
+						color: #86939E;
+						letter-spacing: .15rem;
+					}
+		
+					&.time-item-val {
+						color: #333333;
+						font-size: 3.6vw;
+						font-weight: 400;
+						display: block;
+						line-height: 1;
+					}
+				}
+			}
+	
+			.colon {
+				span {
+					line-height: 3vw;
+					font-size: 3vw;
+					font-weight: 300;
+					color: #333333;
+				}
+			}
+		}
+
+		&.kmsale_action {
+			width: auto;
+			top: 47%;
+			left: 87%;
+	
+			p {
+				width: max-content;
+				text-align: center;
+				margin: 0;
+				position: relative;
+		
+				span {
+					font-size: 1.3vw;
+					display: block;
+					margin-bottom: .5rem;
+					color: #DC5570;
+				}
+		
+				a {
+					color: $color_white;
+					background-color: $color_dark_red_approx;
+					padding: 1rem 3rem !important;
+					border-radius: 0.5rem;
+					margin: 0 auto;
+					font-size: 1.5vw;
+					white-space: nowrap;
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.landing-countdown {
+	padding: 2vw 0 5vw;
+	background-color: $color_countdown_whitebg;
+
+	.landing-countdown-title {
+		text-align: center;
+		font-weight: bold;
+		color: $color_sale_countdown_value;
+		font-size: 2.6rem;
+		margin-bottom: 3rem;
+	}
+
+	.landing-countdown-content {
+		text-align: center;
+
+		.countdown-timer {
+			display: inline-flex;
+
+			.time-item {
+				margin: 0 2rem;
+				text-align: center;
+
+				span {
+					&.time-item-val {
+						color: $color_sale_countdown_value;
+						font-size: 6vw;
+						display: block;
+						line-height: 1;
+					}
+
+					&.time-item-title {
+						color: $color_sale_countdown_title;
+						letter-spacing: .15rem;
+						font-weight: normal;
+					}
+				}
+			}
+
+			.colon {
+				span {
+					line-height: 1;
+					font-size: 5vw;
+					font-weight: 100;
+					color: $color_sale_countdown_value;
+				}
+			}
+		}
+	}
+
+	.learn-more {
+		margin: 2rem auto 0;
+
+		a {
+			display: block;
+			padding: 1.5rem;
+			width: 30rem;
+			margin: 0 auto;
+			background-color: $color_dark_red_approx;
+			color: $color_white;
+			border-radius: 0.5rem;
+			font-size: 1.6rem;
+		}
+	}
+}
+
+section {
+	&.sale-blackfriday {
+		&.home-block {
+			background: #080808 url(../../img/blackfriday-Home-BF-block.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+
+		&.kissme-block {
+			background: #efefef url(../../img/blackfriday_landing_km.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+	
+		&.morpheme-block {
+			background: #efefef url(../../img/blackfriday_landing_mm.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+	
+		&.landing-free {
+			background: #080808 url(../../img/blackfriday_landing_free.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+	
+		.bf-title-img {
+			width: 90%;
+			margin: 0 5% 2rem;
+		}
+
+		.bf-title {
+			color: $color_white;
+			font-size: 7vw;
+			text-align: center;
+			line-height: 6.5vw;
+			letter-spacing: 0.1rem;
+			margin-bottom: 3rem;
+			white-space: nowrap;
+	
+			&:first-child {
+				margin: 0;
+			}
+		}
+
+		.bf-note {
+			font-size: 1vw;
+			color: $color_white;
+			text-align: center;
+			margin-bottom: 2rem;
+			line-height: 1.8 !important;
+		}
+
+		.bf-links {
+			display: inline-flex;
+			justify-content: space-around;
+			width: 100%;
+	
+			.action {
+				width: 40%;
+				margin-bottom: 0;
+				position: relative;
+		
+				&.sold-out:before {
+					content: " ";
+					width: 120%;
+					height: 120%;
+					position: absolute;
+					background: transparent url(../../img/blackfriday-sold-out.svg) no-repeat;
+					z-index: 2;
+					background-size: 100% 100%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					top: 50%;
+				}
+		
+				a {
+					width: 100%;
+					font-size: 1.1vw;
+					white-space: nowrap;
+					padding: .6vw 1.8vw;
+				}
+			}
+		}
+	
+		.bf-note-title {
+			font-size: 1.45vw;
+			text-align: center;
+			color: $color_white;
+			line-height: 1.5 !important;
+			letter-spacing: .05rem;
+		}
+	
+		.bf-notice {
+			position: absolute;
+			bottom: 1.5rem;
+			left: 2rem;
+	
+			span {
+				color: #86939E;
+				font-size: 0.8vw;
+			}
+		}
+	
+		.bf-note-code {
+			color: $color_dark_red_approx;
+			font-size: 1vw;
+			text-align: center;
+			margin-bottom: 1.5rem;
+			line-height: 1.8 !important;
+		}
+
+		.bf-note-code-message {
+			width: 75%;
+			text-align: center;
+			margin: 1rem auto 0;
+		}
+	
+		.bf-form-code {
+			width: 75%;
+			margin: 0 auto;
+		}
+	
+		.bf-code-block hr {
+			width: 20%;
+			border-color: rgba(0,0,0,0.13);
+		}
+
+		.bf-code-applied {
+			padding: 1.5vw 2vw;
+			border: 1px solid $color_dark_red_approx;
+			border-radius: .5rem;
+			text-align: center;
+			width: 80%;
+			margin: 0 auto;
+	
+			.bf-code-applied-title {
+				font-size: 1vw;
+			}
+	
+			.bf-code-applied-desc {
+				font-size: 1vw;
+				line-height: 1.7 !important;
+				margin-bottom: 1.5rem;
+			}
+		
+			.bf-links {
+				.action {
+					width: auto;
+				}
+			}
+		}
+	}
+
+	&.choose-plan {
+		&.bfsale-plan-box {
+			background: $color_white url(../../img/blackfriday_bg_planbox.png) no-repeat !important;
+			background-size: 100% 100% !important;
+		}
+	}
+}
+
+.sale-offer {
+	padding: 2vw;
+	height: 25vw;
+	position: relative;
+	margin-bottom: 2vw;
+	text-align: left;
+	border-radius: .5rem;
+
+	&.tye-offer {
+		background: #FFE5E5 url(../../img/holiday_tye_dashboard_bg.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+
+	&.tye-offer-before {
+		background: #FFE5E5 url(../../img/holiday_tye_dashboard_before_bg.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+
+	&.sth-offer {
+		background: #FFF2E5 url(../../img/holiday_sth_dashboard_bg.jpg) no-repeat;
+		background-size: 100% 100%;
+	}
+
+	.sale-offer-contain {
+		width: 40%;
+	
+		.sale-offer-image {
+			margin-bottom: 1vw;
+	
+			&.sth-image {
+				width: 75%;
+			}
+		}
+
+		.sale-offer-desc {
+			font-size: 1.2vw;
+			color: #94001D;
+		}
+
+		.sale-offer-details {
+			.sale-offer-sm-desc {
+				color: #AD9A88;
+				font-size: .8vw;
+				margin: 0 auto .3vw;
+			}
+	
+			.sale-offer-sm-details {
+				color: #94001D;
+				font-size: 1.6vw;
+				font-weight: 300;
+				letter-spacing: .128rem;
+				line-height: 1 !important;
+				margin: 0 auto .3vw;
+	
+				.sale-offer-price {
+					font-size: 2.8vw;
+					line-height: 1;
+					font-weight: 500;
+		
+					&.for-sth {
+						font-size: 3vw;
+						margin-left: -.5vw;
+					}
+				}
+	
+				.sale-offer-currency {
+					font-size: 1.5vw;
+					vertical-align: top;
+					line-height: 1;
+				}
+	
+				.sale-offer-precision {
+					font-size: 1.5vw;
+					line-height: 1;
+					margin-left: -.5vw;
+				}
+			}
+		}
+	}
+
+	.sale-offer-action {
+		position: absolute;
+		bottom: 2vw;
+	
+		button {
+			padding: 1vw 3vw;
+			font-weight: 100 !important;
+			font-size: 1.1vw;
+		}
+	}
+}
+
+/*plan block for KM landing */
+.leslie-collab-plans {
+	background-color: transparent;
+	clear: both;
+
+	.leslie-collab-plan {
+		text-align: center;
+	
+		h2 {
+			font-size: 2.7vw;
+			color: $color_sale_countdown_value;
+			margin: 6.2vw 0 1vw
+		}
+	
+		p.sub-title {
+			font-size: 1.4vw;
+			color: #333333;
+			margin: 2rem auto 1rem;
+		}
+	
+		ul.plans {
+			list-style: none;
+			display: inline-flex;
+			margin-bottom: 2vw;
+			width: 87%;
+			justify-content: center;
+			padding: 2.4vw 0;
+			background-image: url(../../img/collab-plan-left-bg.svg), url(../../img/collab-plan-right-bg.svg);
+			background-position: 3% bottom, 99% 5%;
+			background-repeat: no-repeat, no-repeat;
+			background-size: 27%, 27%;
+			background: none;
+	
+			> li {
+				display: inline-block;
+				background: $color_white;
+				box-shadow: 0 2px 4px 0 $color_black_30;
+				text-align: center;
+				position: relative;
+				border-radius: 5px;
+				overflow: hidden;
+				width: 33.3%;
+				margin: 2.2vw 0;
+		
+				&.active {
+					z-index: 100;
+					margin: 0
+				}
+	
+				.ribbon {
+					top: 0;
+					right: 0.8vw;
+					width: 3.6vw;
+					z-index: 1;
+		
+					p {
+						color: $color_white;
+						font-size: 0.8vw;
+						margin-top: 0.5vw;
+						line-height: 1vw
+					}
+		
+					&.best-choice:before {
+						content: "";
+						position: absolute;
+						display: block;
+						border: 1.8vw solid $color_best_choice;
+						border-top-width: 2.8vw;
+						border-bottom-width: 1vw;
+						border-bottom-color: transparent;
+						z-index: -1
+					}
+				}
+	
+				p {
+					&.title {
+						font-size: 1.8vw;
+						line-height: 2.3vw;
+						font-weight: 600;
+						color: $color_sale_countdown_title;
+						margin-bottom: 1.8vw;
+					}
+		
+					&.price {
+						display: table;
+						margin: 0 auto 0.8vw;
+						font-size: 3vw;
+						color: $color_mine_shaft_approx;
+						font-weight: normal;
+						line-height: 1;
+			
+						&.stricken {
+							font-size: 2vw;
+							line-height: 1;
+							position: relative;
+							opacity: 0.4;
+			
+							&:before {
+								content: "";
+								position: absolute;
+								left: -8%;
+								top: 50%;
+								width: 113%;
+								height: 2px;
+								background: $color_blue_dianne_approx;
+							}
+						}
+		
+						.dollar {
+							display: table-cell;
+							font-size: 1vw;
+							vertical-align: top;
+							padding-top: 0.5vw
+						}
+			
+						.decimal {
+							display: table-cell;
+							font-size: 1.5vw;
+							vertical-align: bottom;
+							padding-bottom: 0.5vw
+						}
+					}
+		
+					&.comment {
+						line-height: 1.2;
+						font-size: 1.4vw;
+					}
+		
+					&.description {
+						margin: 0.8vw 0 0;
+						color: $color_regent_gray_approx;
+						font-size: 1vw;
+						line-height: 1.2;
+					}
+				}
+		
+				.btn-primary {
+					margin: 0;
+					padding: 0.8vw 1.5vw;
+					max-width: 16vw;
+					min-width: 14vw;
+		
+					&.disabled {
+						background-color: $color_product_key !important;
+						border-color: $color_product_key !important;
+						pointer-events: none;
+					}
+				}
+			}
+		
+			.plan {
+				padding: 2.2vw 1vw 6.7vw;
+				height: 100%;
+		
+				.plan-footer {
+					position: absolute;
+					bottom: 2.2vw;
+					left: 0;
+					right: 0;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+/*homepage block leslie */
+section {
+	&.leslie-collab {
+		&.in-sale {
+			background: #fff1f1 url(../../img/holiday_new_block_in_launch.jpg);
+			background-size: auto 100% !important;
+			background-repeat: no-repeat;
+		}
+	
+		&.before-sale {
+			background: #fff1f1 url(../../img/holiday_new_block_pre_launch.jpg);
+			background-size: auto 100% !important;
+			background-repeat: no-repeat;
+		}
+	
+		.mobile-tb-center {
+			img {
+				width: 60%;
+				margin: 0 auto 2vw;
+			}
+	
+			.note {
+				font-size: 1.2vw;
+				line-height: 1.9vw;
+				color: #94001D;
+				width: 75%;
+				margin-left: 25%;
+			}
+		}
+	}
+}
+
+/** Page General Program Information **/
+.lg_general_program_infomation {
+	.title-info {
+		width: 100%;
+		display: inline-flex;
+		margin-bottom: 2.5rem;
+		height: 4em;
+	
+		span {
+			&.separator {
+				width: 40%;
+				position: relative;
+		
+				span {
+					height: 1px;
+					width: 95%;
+					border-top: 1px solid $color_info_text;
+					display: block;
+					position: absolute;
+					top: 50%;
+		
+					&.separator-right {
+						right: 0;
+					}
+		
+					&.separator-left {
+						left: 0;
+					}
+				}
+			}
+		}
+	
+		.info {
+			display: table;
+			height: 100%;
+	
+			i {
+				font-size: 2.15em !important;
+				color: $color_info_icon;
+				margin-right: 1rem !important;
+				display: table-cell;
+				padding: 0 !important;
+				vertical-align: middle;
+			}
+	
+			p {
+				margin: 0;
+				font-size: 1.8rem;
+				color: $color_info_text;
+				font-weight: bold;
+				display: table-cell;
+				vertical-align: middle;
+				padding-left: 1rem !important;
+				white-space: nowrap;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+	
+	/** style for sale leslie **/
+	.homepage-countdown {
+		.kmsale_option {
+			width: 45%;
+			top: 65% !important;
+			left: 70% !important;
+
+			&.kmsale_countdown {
+				.time-item {
+					span {
+						&.time-item-val {
+							font-size: 7vw;
+							font-weight: 300;
+						}
+
+						&.time-item-title {
+							font-size: 3vw;
+						}
+					}
+				}
+
+				.colon {
+					span {
+						font-size: 6vw;
+						line-height: 6vw;
+					}
+				}
+			}
+
+			&.kmsale_action {
+				p {
+					width: 100%;
+
+					a {
+						position: relative;
+						top: unset;
+						left: unset;
+						transform: none;
+						font-size: 1.6rem;
+					}
+				}
+			}
+		}
+	}
+
+	.landing-countdown {
+		.landing-countdown-title {
+			font-size: 2rem;
+			width: 80%;
+			margin: 0 auto 2rem;
+		}
+
+		.landing-countdown-content {
+			.countdown-timer {
+				.time-item {
+					margin: 0 1rem;
+
+					span {
+						&.time-item-val {
+							font-size: 4rem;
+						}
+
+						&.time-item-title {
+							font-size: 1.2rem;
+						}
+					}
+				}
+
+				.colon {
+					span {
+						font-size: 4rem;
+					}
+				}
+			}
+		}
+	}
+
+	/*plan block on KM redirect page*/
+	.leslie-collab-plans {
+		.leslie-collab-plan {
+			padding: 0 2.8rem;
+
+			h2 {
+				font-size: 2.4rem;
+				margin-bottom: 2.1rem;
+				letter-spacing: -1px;
+			}
+
+			p {
+				&.sub-title {
+					font-size: 1.6rem;
+					margin-bottom: 1.5rem
+				}
+			}
+
+			ul.plans {
+				display: block;
+				width: 100%;
+				background-size: 120%, 0, auto, auto;
+				padding-bottom: 3rem;
+				background-position: -50% 100%, 100% 100%;
+
+				> li {
+					display: block;
+					width: 100%;
+					border-radius: 7px;
+					margin-bottom: 2.8rem;
+
+					&.active {
+						margin-bottom: 2.8rem;
+					}
+
+					.ribbon {
+						right: 0;
+						width: 4rem;
+
+						p {
+							text-align: center;
+							font-size: 1.2rem;
+							margin-top: 0.3rem;
+						}
+
+						&.best-choice {
+							&:before {
+								border-width: 2.1rem;
+								border-top-width: 3rem;
+								border-bottom-width: 1rem;
+							}
+						}
+					}
+
+					p {
+						text-align: center;
+
+						&.title {
+							font-size: 2rem;
+							margin-bottom: 1rem;
+						}
+
+						&.price {
+							font-size: 4rem;
+							margin: 0 auto;
+
+							.dollar {
+								padding-bottom: 0.8rem;
+								font-size: 2rem;
+								vertical-align: bottom;
+							}
+
+							.decimal {
+								padding-bottom: 0.8rem;
+								font-size: 2rem
+							}
+						}
+
+						&.comment {
+							display: block;
+							font-size: 1.7rem;
+							line-height: 1.9rem;
+							margin: 0.6rem 0 0
+						}
+
+						&.description {
+							margin-bottom: 0;
+							font-size: 1.3rem;
+						}
+					}
+
+					.btn-primary, .btn-secondary {
+						margin: 2rem 0 0;
+						width: 100%;
+						max-width: none;
+						border-top-left-radius: 0;
+						border-top-right-radius: 0;
+						border-bottom-left-radius: 7px;
+						border-bottom-right-radius: 7px;
+						font-size: 2rem;
+						padding: 0.7rem;
+					}
+				}
+
+				.plan {
+					padding: 2rem 0 0;
+
+					.plan-footer {
+						position: unset;
+					}
+				}
+			}
+		}
+	}
+
+	/*homepage block leslie */
+	section {
+		&.leslie-collab {
+			background: url(../../img/home-leslie-bg-mb.png), linear-gradient(180deg, $color_leslie_collab_1 0%, $color_leslie_collab_2 100%);
+			background-size: 100% auto !important;
+			background-repeat: no-repeat !important;
+
+			.mobile-tb-center {
+				display: block;
+
+				img {
+					&.logo-leslie {
+						width: 80%;
+						padding-top: 20%;
+					}
+
+					&.leslie-girl {
+						width: 80%;
+						margin: 0 auto 2rem;
+					}
+				}
+
+				.note {
+					font-size: 1.8rem;
+					letter-spacing: .05rem;
+					width: 80%;
+					margin: 0 auto 3rem;
+					padding: 0;
+				}
+			}
+		}
+
+		&.new-sale-block {
+			position: relative;
+			background: #FFF1F1 !important;
+
+			img {
+				width: 100%;
+			}
+
+			.vertical-center {
+				position: absolute;
+				top: 3%;
+				text-align: center;
+			}
+		}
+
+		&.sale-blackfriday {
+			&.home-block, &.landing-free {
+				background: #080808;
+			}
+
+			&.kissme-block, &.morpheme-block {
+				background: #efefef;
+			}
+
+			.img-bf-top {
+				width: 100%;
+			}
+
+			.bf-title {
+				font-size: 6rem;
+				line-height: 1 !important;
+				margin: 0 auto;
+			}
+
+			.bf-title-img {
+				width: 63%;
+				margin: -5rem auto 0;
+			}
+
+			.img-bf-middle {
+				width: 65%;
+				margin: 0 auto 2rem;
+			}
+
+			.bf-note-title {
+				font-size: 1.5rem;
+				width: 60%;
+				margin: 0 auto 1rem;
+			}
+
+			.bf-note {
+				width: 80%;
+				margin: 0 auto 2rem;
+				line-height: 1.5 !important;
+				font-size: 1.2rem;
+			}
+
+			.bf-links {
+				margin-bottom: 3.5rem;
+
+				.action {
+					a {
+						padding: 1rem 2rem;
+						font-size: 1.5rem;
+					}
+				}
+			}
+
+			.bf-notice {
+				position: relative;
+				left: unset;
+				bottom: unset;
+				margin: 0 auto 1rem;
+				width: 75%;
+
+				span {
+					font-size: 1rem;
+				}
+			}
+
+			.bf-note-code {
+				margin: 0 auto 1rem;
+				line-height: 1.5 !important;
+				font-size: 1.2rem;
+				width: 80%;
+			}
+
+			.bf-code-block {
+				margin: -1rem auto 1rem;
+
+				hr {
+					margin: 1rem auto;
+				}
+			}
+
+			.bf-form-code {
+				font-size: 1.2rem;
+
+				input {
+					height: 4rem;
+				}
+			}
+
+			.bf-code-applied {
+				width: 85%;
+				padding: 1.5rem 1rem;
+				margin-bottom: 2rem;
+
+				.bf-code-applied-desc {
+					font-size: 1.2rem;
+					line-height: 1.5 !important;
+				}
+
+				.bf-code-applied-title {
+					font-size: 1.3rem;
+				}
+
+				.bf-links {
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+
+	.sale-offer {
+		height: auto;
+		padding: 2rem;
+		border-radius: unset;
+		margin: 0 auto;
+
+		&.tye-offer {
+			background: #FFE5E5 url(../../img/holiday_tye_dashboard_bg_mobile.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+		&.tye-offer-before {
+			background: #FFE5E5 url(../../img/holiday_tye_dashboard_before_bg_mobile.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+		&.sth-offer {
+			background: #FFF2E5 url(../../img/holiday_sth_dashboard_bg_mobile.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+
+		.sale-offer-contain {
+			.sale-offer-desc {
+				font-size: 3.5vw;
+				line-height: 5.5vw !important;
+				margin: 0 auto 5vw;
+			}
+
+			.sale-offer-image {
+				margin-bottom: 4vw;
+			}
+
+			.sale-offer-details {
+				.sale-offer-sm-desc {
+				font-size: 2.5vw;
+				margin: 0 auto 1.5vw;
+				}
+
+				.sale-offer-sm-details {
+				font-size: 4vw;
+				margin: 0 auto 1.5vw;
+
+				.sale-offer-currency {
+					font-size: 4vw;
+				}
+
+				.sale-offer-price {
+					font-size: 6.5vw;
+
+					&.for-sth {
+					font-size: 8vw;
+					margin-left: -1.5vw;
+					}
+				}
+
+				.sale-offer-precision {
+					font-size: 4vw;
+					margin-left: -1.5vw;
+				}
+
+				&.for-sth {
+					margin: 0 auto 3vw;
+				}
+				}
+			}
+		}
+
+		.sale-offer-action {
+			position: relative;
+			bottom: unset;
+
+			button {
+				font-size: 1.2rem;
+				padding: 1rem 3rem;
+			}
+		}
+	}
+}

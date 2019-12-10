@@ -1,0 +1,716 @@
+@import '../constants.scss';
+
+
+/* ----------------------------------------------------------
+
+	Member Perks Page
+
+------------------------------------------------------------- */
+
+/* ============= General ============= */
+
+.benefits-page {
+	padding: 50px 0;
+
+	/* General */
+
+	.container {
+		width: 1200px;
+		max-width: 100%;
+	}
+
+	p {
+		line-height: 1.6;
+	}
+
+	.section-title {
+		color: $color_black;
+		font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+		font-weight: 700;
+		line-height: 1.71;
+	}
+
+	.section-sub-title {
+		font-weight: 300;
+	}
+
+	img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.section-cta {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	/* Careousel */
+
+	.owl-carousel {
+		.owl-item {
+			padding: 0;
+		}
+		.owl-dots {
+			display: flex;
+			justify-content: center;
+			margin-top: 30px !important;
+			padding: 0;
+
+			&.disabled {
+				display: none;
+				margin: 0 !important;
+				padding: 0 !important;
+			}
+		
+			.owl-dot {
+				span {
+					display: inline-block;
+					border-radius: 50%;
+					width: 15px;
+					height: 15px;
+					background: $color_white;
+					position: relative;
+					margin-right: 23px !important;
+				}
+				
+				&:last-child span {
+					margin: 0 !important;
+				}
+				
+				&.active span {
+					background: $color_dark_red_approx !important;
+				}
+
+				&.active span:after {
+					content: '';
+					position: absolute;
+					left: -4px;
+					right: -4px;
+					top: -4px;
+					bottom: -4px;
+					border: 1px solid $color_dark_red_approx;
+					border-radius: 50%;
+				}
+			}
+		}
+	
+		.owl-nav {
+			.owl-prev {
+				margin-left: -23px !important;
+			}
+		
+			.owl-next {
+				margin-right: -23px !important;
+			}
+		
+			.owl-prev img,
+			.owl-next img {
+				width: 11px !important;
+			}
+		}
+	}
+}
+
+
+/* ============= Hero Section ============= */
+
+.benefits-hero {
+	height: 450px;
+	background: url('../../img/subscription-benefits-hero@2x.jpg') no-repeat right center, $color_vague_pink_approx;
+	background-size: contain;
+	display: flex;
+	align-items: center;
+
+	.content {
+		width: 50%;
+		text-align: center;
+	}
+	
+	.hero-title {
+		color: $color_black;
+		font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+		font-weight: 700;
+		letter-spacing: 2.3px;
+		line-height: 1.04;
+		margin-bottom: .5em;
+	}
+	
+	.hero-text {
+		line-height: 1.23;
+	}
+}
+
+/* ============= About dashboard Section ============= */
+
+.benefits-about-dashboard {
+	.about-dashboard-title {
+		font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+		font-weight: 700;
+		letter-spacing: 2.15px;
+		line-height: 1.11;
+		margin-bottom: .3em;
+	}
+	
+	.about-dashboard-subtitle {
+		font-weight: 500;
+		line-height: 1.33;
+		margin-bottom: 3em
+	}
+	
+	.flex-group {
+		padding: 35px;
+		display: flex;
+		flex-wrap: wrap;
+		text-align: right;
+
+		.description {
+			flex: 1;
+			color: $color_text_primary;
+
+			.description-subtitle {
+				color: $color_black;
+				font-weight: 700;
+				line-height: 1.33;
+				margin: 1em 0;
+			}
+			
+			p {
+				margin-left: 20%;
+			}
+	
+		}
+		
+		&.bg-gray {
+			background-color: rgba(215, 215, 215, 0.2);
+			text-align: left;
+
+			.description p {
+				margin-left: 0;
+				margin-right: 20%;
+			}
+		}
+				
+		.screenshot {
+			flex: 1;
+			img {
+				box-shadow: 0px 2px 4px $color_black_50;
+			}
+		}
+	}
+}
+
+/* ============= Memeber Perks Section ============= */
+
+.benefits-member-perks {
+	background-color: $color_vague_pink_approx;
+	text-align: center;
+
+	.flex-group {
+		margin-top: 40px;
+		display: flex;
+
+		.flex-item {
+			flex: 1;
+		}
+	}
+	
+	.perk-icon {
+		height: 130px;
+		width: 130px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: center;
+		background: $color_white;
+		border-radius: 50%;
+	}
+	
+	.perk-title {
+		color: $color_black;
+		font-weight: 700;
+	}
+	
+	.perk-desc {
+		max-width: 80%;
+		letter-spacing: .05em;
+		margin: 0 auto;
+		margin-top: .3em;
+	}
+}
+
+
+/* ============= Customer Service Section ============= */
+
+.benefits-customer-service {
+	.content {
+		width: 900px;
+		max-width: 90%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.section-logo {
+		width: 173px;
+		margin-bottom: 14px;
+	}
+	
+	p {
+		font-weight: 300;
+	}
+	
+	.section-subtitle {
+		font-weight: 500;
+	}
+	
+	.btn-secondary {
+		margin-right: 25px;
+		box-shadow: 0 1px 4px $color_black_10;
+	}
+}
+
+/* ============= Instagram Section ============= */
+
+.benefits-instagram {
+	background-color: $color_black;
+	text-align: center;
+
+	.section-title {
+		color: $color_white;
+	}
+	.section-subtitle {
+		font-weight: 300;
+		color: $color_white;
+	}
+	.instagram-slider {
+		margin: 50px 0;
+
+		.owl-item {
+			padding: 0;
+
+			.slide {
+				height: calc( (100vw - 130px) / 6 );
+				overflow: hidden;
+				position: relative;
+				cursor: url('../../img/instagram-cursor.png') 16 16, pointer;
+				margin: 0 auto;
+
+				img {
+					transition: .3s;
+					max-height: initial;
+				}
+				&:hover img {
+					filter: contrast(20) grayscale(1);
+					-webkit-filter: contrast(20) grayscale(1);
+					-moz-filter: contrast(20) grayscale(1);
+					-o-filter: contrast(20) grayscale(1);
+					-ms-filter: contrast(20) grayscale(1);
+				}
+				&:after {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					background-color: #DD015F;
+					opacity: 0;
+					transition: .3s;
+				}
+				&:hover:after {
+					opacity: .5;
+				}
+			}
+		}
+	}
+}
+
+/* ============= Join Now Section ============= */
+
+.benefits-join-now {
+    height: 20vw;
+    background: linear-gradient(to right, $color_orange_light 0%, $color_brown_mid 100%);
+	background-repeat: no-repeat,no-repeat;
+	background-position: center;
+    background-size: 100%;
+	text-align: center;
+	padding: 0;
+	position: relative;
+
+    .subscribe-left-img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        max-height: 110%;
+        max-width: 23%;
+    }
+
+    .subscribe-right-img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-height: 110%;
+        max-width: 23%;
+	}
+
+    .subscribe-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+	}
+	
+    .section-title {
+		max-width: 50%;
+		margin: 0 auto;
+        margin-bottom: .5em;
+        font-size: 2vw;
+        line-height: 1.25‬;
+        letter-spacing: 0.11vw;
+	}
+	
+	p {
+        max-width: 40%;
+        margin: 0 auto;
+        font-size: 1.3vw;
+        line-height: 1.9vw;
+	}
+}
+
+/* ============= Responsive ============= */
+
+@media (max-width: $screen-lg-max) {
+
+	.benefits-page {
+		padding: 3.9vw 0;
+
+		/* General */
+		.section-cta {
+			margin-top: 2.34vw;
+		}
+	}
+	
+	/* Hero Section */
+	.benefits-hero {
+		height: 35.15vw;
+
+		.hero-title {
+			letter-spacing: 0.18vw;
+		}
+	}
+	
+	/* About dashboard Section */
+	.benefits-about-dashboard {
+		.about-dashboard-title {
+			letter-spacing: 0.17vw;
+		}	
+		
+		.flex-group {
+			padding: 2.73vw;
+		}
+	}
+
+	/* Memeber Perks Section */	
+	.benefits-member-perks {
+		.flex-group {
+			margin-top: ‭3.125vw;
+		}
+		.perk-icon {
+			height: 10.83vw;
+			width: 10.83vw;
+			padding: 2.5vw;
+			margin-bottom: 2.34vw;
+		}
+	}
+	
+	/* Customer Service Section */
+	.benefits-customer-service {
+		.section-logo {
+			width: 13.51vw;
+			margin-bottom: 1.09vw;
+		}
+		.btn-secondary {
+			margin-right: 1.95vw;
+		}
+	}
+	
+	/* Instagram Section */
+	.benefits-instagram {
+		.instagram-slider {
+			margin: 3.9vw 0;
+		}
+	}
+	
+	/* Join Now Section */
+	.benefits-join-now {
+		height: 20vw;
+	}
+}
+
+@media (max-width: $screen-sm-max) {
+
+	.benefits-page {
+		padding: 50px 0;
+
+		&.m-fixed-height {
+			padding: 0;
+			height: 570px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			> div { max-width: 100%; }
+		}
+
+		.owl-carousel {
+			.owl-dots {
+				margin-top: 20px !important;
+				
+				.owl-dot span {
+					width: 11px;
+					height: 11px;
+					margin-right: 20px !important;
+				}
+				
+				.owl-dot.active span:after {
+					left: -3px;
+					right: -3px;
+					top: -3px;
+					bottom: -3px;
+				}
+			}
+			&.owl-nav-m-bottom {
+				.owl-nav {
+					bottom: 0;
+					top: auto;
+					left: 50%;
+					transform: translateX(-50%);
+					max-width: 80vw;
+
+					.owl-prev {
+						margin-left: 0px !important;
+					}
+					
+					.owl-next {
+						margin-right: 0px !important;
+					}
+				}
+			}
+		}
+
+		/* General */
+		.container {
+			padding: 0;
+		}
+		.section-title {
+			line-height: 30px;
+			letter-spacing: 0;
+			margin-bottom: .5em;
+		}
+		.section-subtitle {
+			max-width: 95%;
+			margin: 0 auto;
+			margin-bottom: .5em;
+		}
+		p {
+			line-height: 20px;
+		}
+		.section-subtitle {
+			font-weight: 300;
+			line-height: 22px;
+		}
+		.section-cta {
+			margin-top: 20px;
+			position: relative;
+			z-index: 1;
+		}
+	}
+	
+	footer .container {
+		padding-right: 15px !important;
+		padding-left: 15px !important;
+	}
+
+	/* Hero Section */
+	.benefits-hero {
+    height: auto;
+    background: #f0d0db;
+    padding: 0;
+    display: block;
+
+		.content {
+			width: 80%;
+			margin: 0 auto;
+		}
+	
+		.hero-title {
+			letter-spacing: -1.12px;
+			line-height: 40px;
+		}
+		.hero-text {
+			line-height: 22px;
+		}
+	}
+	
+	/* About dashboard Section */
+	.benefits-about-dashboard {
+		padding: 30px 0 0;
+
+		.about-dashboard-subtitle {
+			font-weight: 300;
+			line-height: 28px;
+			margin: 0 20px;
+			margin-bottom: 2em;
+		}
+		
+		.flex-group {
+			margin-bottom: 0;
+			padding: 35px 0;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column-reverse;
+			align-items: center;
+
+			&.bg-gray {
+				justify-content: center;
+				flex-direction: row;
+			}
+			.description {
+				flex: auto;
+				max-width: 90%;
+				margin-bottom: 50px;
+				text-align: center;
+
+				.description-subtitle {
+					font-weight: 400;
+					letter-spacing: 0.9px;
+					text-align: center;
+				}
+			}
+			
+			.description p,
+			&.bg-gray .description p {
+				margin-left: 0;
+				margin-right: 0;
+			}
+			.screenshot {
+				flex: auto;
+				width: 100%;
+				text-align: center;
+
+				img {
+					width: 500px;
+				}
+			}
+		}
+	}
+
+	/* Memeber Perks Section */
+	.benefits-member-perks {
+		.section-description {
+			font-weight: 300;
+			margin-top: 10px;
+		}
+		.flex-group {
+			margin-top: 0;
+			display: block;
+
+			.flex-item {
+				margin-top: 10px;
+			}
+		}
+		
+		.perk-icon {
+			height: 50px;
+			width: 50px;
+			padding: 0;
+			background: none;
+		}
+		.perk-title {
+			letter-spacing: 1px;
+			line-height: 22px;
+		}
+		.perk-desc {
+			line-height: 20px;
+		}
+	}
+
+	/* Customer Service Section */
+	.benefits-customer-service {
+		.section-subtitle {
+			font-weight: 500;
+		}
+		.section-logo {
+			width: 104px;
+			margin-bottom: 20px;
+		}
+		p {
+			font-weight: 300;
+			line-height: 22px;
+		}
+		.link {
+			color: $color_dark_red_approx;
+			font-weight: 700;
+			letter-spacing: 2.8px;
+			line-height: 44.13px;
+			text-transform: uppercase;
+		}
+	}
+
+	/* Instagram Section */
+	.benefits-instagram {
+		padding: 50px 5% 50px;
+
+		.instagram-slider {
+			max-width: 80%;
+			width: 265px;
+			margin: 25px auto;
+			
+			.owl-item .slide {
+				height: 265px;
+				overflow: hidden;
+			}
+		}
+	}
+	
+	/* Join Now Section */
+	.benefits-join-now {
+		height: auto;
+        padding: 50vw 0 45vw;
+        background-image: url(../../img/subscribe-top.png),url(../../img/subscribe-bottom.png),linear-gradient(30deg,#f0ac99 0,#f1d9b2 100%);
+        background-repeat: no-repeat,no-repeat;
+        background-position: top center,bottom center;
+        background-size: 100% auto,100% auto;
+        margin-top: 0;
+
+        .subscribe-content {
+            position: relative;
+            top: unset;
+            left: unset;
+            transform: none;
+        }
+
+		&.m-fixed-height {
+			height: auto;
+			min-height: 570px;
+			padding: 50vw 0 45vw;
+		}
+		.section-title {
+			letter-spacing: 1.43px;
+			max-width: 90%;
+			margin: 0 auto;
+			margin-bottom: 1em;
+            font-size: 20px;
+		}
+		p {
+			letter-spacing: 1px;
+			max-width: 80%;
+			margin: 0 auto;
+            font-size: 18px;
+		}
+	}
+}
+
+

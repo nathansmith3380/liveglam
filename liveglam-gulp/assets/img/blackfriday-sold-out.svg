@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="289px" height="98px" viewBox="0 0 289 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>sold out</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-BF-block---sold-out" transform="translate(-551.000000, -689.000000)">
+            <g id="sold-out" transform="translate(551.000000, 689.000000)">
+                <polygon id="Rectangle-9" fill="#059DAF" transform="translate(144.615407, 49.196049) rotate(-9.000000) translate(-144.615407, -49.196049) " points="2.96737891 22.4108088 286.263435 22.4108088 268.405231 51.114263 286.263435 75.9812895 2.96737891 75.9812895 19.2021099 48.3415721"></polygon>
+                <text id="SOLD-OUT!" transform="translate(144.925480, 48.444746) rotate(-10.000000) translate(-144.925480, -48.444746) " font-family="Karla-Bold, Karla" font-size="30" font-weight="bold" letter-spacing="1" fill="#FFFFFF">
+                    <tspan x="65.9254797" y="58.4447456">SOLD OUT!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

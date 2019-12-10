@@ -1,0 +1,344 @@
+//colors
+$color_azure_approx: #326499;
+$color_pizazz_approx: #f89600;
+$color_mine_shaft_approx: #333;
+$color_mine_shaft_0_approx: rgba(51, 51, 51, 0); // #33333300
+$color_mine_shaft_60_approx: rgba(51, 51, 51, 0.6); // #33333399
+$color_rose_bud_cherry_approx: #7a0246;
+$color_rose_bud_approx: #feb2a5;
+$color_black: #000;
+$color_black_0: rgba(0, 0, 0, 0); // #00000000
+$color_black_5: rgba(0, 0, 0, 0.05); // #0000000D
+$color_black_10: rgba(0, 0, 0, 0.1); // #0000001A
+$color_black_15: rgba(0, 0, 0, 0.15); // #00000026
+$color_black_20: rgba(0, 0, 0, 0.2); // #00000033
+$color_black_30: rgba(0, 0, 0, 0.3); // #0000004D
+$color_black_40: rgba(0, 0, 0, 0.4); // #00000066
+$color_black_50: rgba(0, 0, 0, 0.5); // #00000080
+$color_black_70: rgba(0, 0, 0, 0.7); // #000000B3
+$color_black_90: rgba(0, 0, 0, 0.9); // #000000E6
+$color_black_100: rgba(0, 0, 0, 1); // #000000FF
+$color_black_111: #111;
+$color_black_111111: #111111;
+$color_black_666: #666;
+$color_black_haze_approx: #f6f6f6;
+$color_white: #fff;
+$color_white_0: rgba(255, 255, 255, 0); // #FFFFFF00
+$color_white_10: rgba(255, 255, 255, 0.1); // #FFFFFF1A
+$color_white_20: rgba(255, 255, 255, 0.2); // #FFFFFF33
+$color_white_30: rgba(255, 255, 255, 0.3); // #FFFFFF4D
+$color_white_45: rgba(255, 255, 255, 0.45); // #FFFFFF73
+$color_white_50: rgba(255, 255, 255, 0.5); // #FFFFFF80
+$color_white_lilac_approx: #f6fafb;
+$color_regent_gray_approx: #86939E;
+$color_grey_placehoder: #d4d4d4;
+$color_regent_gray_15_approx: rgba(134, 147, 158, 0.15); // #86939E26
+$color_regent_gray_30_approx: rgba(134, 147, 158, 0.3); // #86939E4D
+$color_regent_gray_50_approx: rgba(134, 147, 158, 0.5); // #86939E80
+$color_regent_gray_75_approx: rgba(134, 147, 158, 0.75); // #86939EBF
+$color_gray_ck: #F2F2F2;
+$color_gray_ck1: #949393;
+$color_gray_ck2: #d4d4d4;
+$color_black_ck: #444E5A;
+$color_black_ck1: #707983;
+$color_black_ck_10: rgba(0, 0, 0, 0.06); //#00000010
+$color_regent_st_blue_approx: #a9cddd;
+$color_morning_glory_approx: #a3dce0;
+$color_mystic_approx: #E0E6ED;
+$color_confirm_bgtop: #F5D9C7;
+$color_confirm_text_top: #878787;
+$color_confirm_text_head: #86939E;
+$color_confirm_text_desc: #707983;
+$color_confirm_text_black: #333333;
+$color_confirm_box_shadow: #d4d4d4;
+$color_steel_blue_approx: #4b88c4;
+$color_steel_gray_approx: #1D2736;
+$color_steel_gray_50_approx: rgba(29, 39, 54, 0.5); // #1D273680;
+$color_steel_gray_80_approx: rgba(29, 39, 54, 0.8); // #1D2736CC;
+$color_pale_rose_approx: #FFE3F3;
+$color_pale_sky_approx: #6d737c;
+$color_chambray_approx: #295185;
+$color_chambray_35_approx: rgba(36, 80, 137, 0.35); // #24508959
+$color_pink_flare_approx: #eabac6;
+$color_pink_swan_approx: #bababa;
+$color_lily_white_approx: #E9F8FF;
+$color_lily_white_50_approx: rgba(233, 248, 255, 0.5); // #E9F8FF80
+$color_melon_approx: #ffb8a7;
+$color_best_choice: #FFB73F;
+$color_hit_pink_approx: #feb391;
+$color_tan_hide_approx: #ff935a;
+$color_almond_approx_desktop: #f3d0c4;
+$color_bridesmaid_approx: #fff0ea;
+$color_info_text: #a36dab;
+$color_jagged_ice_approx: #c3e6ef;
+$color_seagull_approx: #89d4f0;
+$color_sea_buckthorn_approx: #f5a623;
+$color_sea_pink_approx: #f19394;
+$color_dixie_approx: #da8f16;
+$color_blue_chill_approx: #00939b;
+$color_blue_dianne_approx: #204e57;
+$color_blue_whale_approx: #052848;
+$color_atomic_tangerine_approx: #fe9360;
+$color_atomic_tangerine_approx_1: #f79e71;
+$color_sale_countdown_title: #F77D88;
+$color_sale_countdown_value: #6F5249;
+$color_bali_hai_approx: #8d9ca8;
+$color_bali_hai_approx_1: #8da5b0;
+$color_bali_hai_10_approx: rgba(26, 47, 56, 0.1); // #1A2F381A
+$color_river_bed_approx: #414d5e;
+$color_muddy_waters_approx: #bf8c61;
+$color_hot_pink_approx: #ff5db1;
+$color_vague_pink_approx: #f4e3d6;
+$color_cinderella_approx: #ffe0da;
+$color_cinnabar_approx: #ee483b;
+$color_vivid_tangerine_approx: #ff9387;
+$color_vivid_violet_approx: #8c4096;
+$color_vivid_violet_40_approx: rgba(140, 64, 150, 0.4); // #8C409666
+$color_purple_heart_approx: #662bad;
+$color_violet_red_approx: #f64495;
+$color_shark_approx: #262626;
+$color_cape_cod_50_approx: rgba(64, 64, 64, 0.5); // #40404080
+$color_keppel_approx: #32a9af;
+$color_keppel_approx_1: #399d95;
+$color_celeste_approx_desktop: #ccc;
+$color_celeste_approx_mobile: #d0d0d0;
+$color_picton_blue_60_approx: rgba(73, 154, 253, 0.6); // #499AFD99
+$color_iron_approx: #d8d8d8;
+$color_fountain_blue_approx_desktop: #4bc7cf;
+$color_sundown_approx: #fda5b3;
+$color_lavender_blush_approx: #ffeef6;
+$color_cotton_candy_approx: #ffb5d8;
+$color_cotton_candy_approx1: #ffbdd7;
+$color_limed_spruce_approx: #3d4651;
+$color_wild_sand_approx: #f5f5f5;
+$color_wild_strawberry_approx_mobile: #f73097;
+$color_zircon_approx: #f4fbff;
+$color_biscay_approx: #11325e;
+$color_silver: #c0c0c0;
+$color_silver_approx: #bebebe;
+$color_silver_chalice_approx: #aaa;
+$color_silver_sand_approx: #c3c3c3;
+$color_zumthor_approx: #ecf8ff;
+$color_mountain_mist_approx: #979797;
+$color_flesh_approx: #fcc9aa;
+$color_mona_lisa_approx: #ff9c8d;
+$color_brink_pink_approx: #fb6986;
+$color_pattens_blue_approx: #E1F3FD;
+$color_pattens_blue_0_approx: rgba(225, 243, 253, 0); // #E1F3FD00
+$color_mantis_approx: #7cca4e;
+$color_puerto_rico_approx: #4bb4ac;
+$color_mandy_approx: #d64a58;
+$color_mandys_pink_approx: #f3bdb0;
+$color_wax_flower_20_approx: rgba(255, 188, 166, 0.2); // #FFBCA633
+$color_wax_flower_approx_desktop: #FFBCA6;
+$color_linen_approx: #fbefe6;
+$color_congress_blue_approx: #004c91;
+$color_alto: #ddd;
+$color_alto_approx: #dadada;
+$color_cameo_approx: #d5bba1;
+$color_indian_khaki_approx: #c9b094;
+$color_tequila_approx: #fbe4cb;
+$color_eunry_approx: #d7aba4;
+$color_peach_schnapps_approx: #fedad3;
+$color_scarpa_flow_50_approx: rgba(92, 94, 98, 0.5); // #5C5E6280
+$color_mirage_approx: #18191e;
+$color_soapstone_approx: #fff9f8;
+$color_light_bg: #FEFBF8;
+$color_lightgray_bg: #bfbfbf;
+$color_french_gray_approx: #bdbcc4;
+$color_apricot_peach_approx: #FFCDB2;
+$color_apricot_peach_30_approx: rgba(255, 205, 178, 0.3); // #FFCDB24D
+$color_apricot_approx: #eca179;
+$color_solitude_approx: #ebf7fe;
+$color_info_icon: #ebebeb;
+$color_slider_dot: #964c4c;
+$color_stat_slider_dot: #d0a69a;
+$color_red: #FF0000;
+$color_red_0: rgba(255, 0, 0, 0); // #FF000000
+$color_red_violet_approx: #de0088;
+$color_red_violet_approx_strong: #ee0087;
+$color_persian_rose_approx: #ee1e95;
+$color_ref_link: #fc0191;
+$color_fuscous_gray_approx: #555;
+$color_fuzzy_wuzzy_brown_approx: #c55050;
+$color_cornflower_blue_approx: #66AFE9;
+$color_cornflower_blue_60_approx: rgba(102, 175, 233, 0.6); // #66AFE999
+$color_hollywood_cerise_approx: #eb058c;
+$color_hollywood_cerise_approx_1: #fe0793;
+$color_instruction_link: #fe018f;
+$color_stack_approx: #8c8c8c;
+$color_badge_diamond: #ffa292;
+$color_badge_gold: #ffc800;
+$color_badge_silver: #a7d6ff;
+$color_bay_of_many_approx: #224b89;
+$color_nepal_approx: #90a6c4;
+$color_viking_approx: #62d2cd;
+$color_salmon_approx: #ff7d70;
+$color_bittersweet_approx: #ff6e66;
+$color_geraldine_approx: #ff9187;
+$color_pink: #ffc0cb;
+$color_geyser_approx: #dbe3e6;
+$color_deluge_approx: #7f649f;
+$color_horizon_approx: #5c83a6;
+$color_boston_blue_approx: #4697ab;
+$color_eastern_blue_approx: #119aa1;
+$color_acapulco_approx: #6fc5a5;
+$color_coral_red_approx: #ff3c3c;
+$color_tacao_approx: #eea67f;
+$color_paarl_approx: #a95728;
+$color_raw_sienna_approx: #c6794c;
+$color_nobel_approx: #b2b2b2;
+$color_potters_clay_approx: #91532f;
+$color_quill_gray_approx: #d2d2d2;
+$color_denim_approx: #1C6CB6;
+$color_havelock_blue_approx: #4B98DF;
+$color_kimberly_approx: #765f96;
+$color_pumice_approx: #C8C8C8;
+$color_orchid_approx: #d77bc2;
+$color_froly_approx: #fb797e;
+$color_citron_approx: #8fae1b;
+$color_trendy_green_approx: #809d13;
+$color_manhattan_approx: #f9bf9b;
+$color_azalea_approx: #f9d0d0;
+$color_abbey_approx: #4a4e50;
+$color_manatee_approx: #8d949c;
+$color_font_main: #203032;
+$color_font_tab_menu: #243032;
+$color_font_tab: rgba(36, 48, 50, 0.5); // #24303280
+$color_danube_approx: #739dd6;
+$color_kashmir_blue_approx: #436899;
+$color_kashmir_blue_30_approx: rgba(67, 104, 153, 0.3); // #4368994D
+$color_bombay_approx: #aeb2b7;
+$color_dove_gray_approx: #707070;
+$color_ghost_approx: #c9ccce;
+$color_gallery_approx: #eee;
+$color_sail_approx: #b8d7ff;
+$color_polo_blue_approx: #8cabd5;
+$color_royal_blue_approx: #3682E2;
+$color_royal_blue_26_approx: rgba(54, 130, 226, 0.26); // #3682E242
+$color_cararra_approx: #ececec;
+$color_gray: #808080;
+$color_gray_18: rgba(128, 128, 128, 0.18); // #8080802E
+$color_gray_54: rgba(128, 128, 128, 0.54); // #8080808A
+$color_gray_nurse_approx: #eaeaea;
+$color_bright_red_approx: #a00;
+$color_bright_turquoise_approx: #12d2e8;
+$color_antique_brass_approx: #cc816b;
+$color_bg_notice_separator1: #9DDA47;
+$color_bg_notice_separator2: #32A9AF;
+$color_bg_notice_separator3: #DE108C;
+$color_bg_dashboard_separator1: #ECA179;
+$color_bg_dashboard_separator2: #FFCDAB;
+$color_coupon_link: #ec7171;
+$color_cod_gray_84_approx: rgba(6, 6, 6, 0.84); // #060606D6
+$color_classic_rose_30_approx: rgba(254, 200, 238, 0.3); // #FEC8EE4D
+$color_alabaster: #fafafa;
+$color_alabaster_approx: #fbfbfb;
+$color_bondi_blue_approx: #059daf;
+$color_bon_jour_approx: #e0e0e0;
+$color_desert_storm_approx: #f8f8f8;
+$color_storm_dust_approx: #636363;
+$color_mercury: #e5e5e5;
+$color_mercury_approx: #e4e4e4;
+$color_brilliant_rose_approx: #fe5aaf;
+$color_karry_approx: #fee7d9;
+$color_cloud_burst_approx: #212f58;
+$color_alice_blue_approx: #f0faff;
+$color_seashell: #f1f1f1;
+$color_chinook_approx: #9ee4c1;
+$color_border: #dde4ea;
+$color_lightbg: #EDF8FE;
+$color_lightbg_70: rgba(237, 248, 254, .7); // #EDF8FEB3
+$color_lightgrey: #D3D3D3;
+$color_state_active: #52AE9C;
+$color_state_waiting: #F5A623;
+$color_state_cancel: #EB5E56;
+$color_state_none: #929EA8;
+$color_action_active_bg: #64d1c2;
+$color_countdown_1: #FFE6E9;
+$color_countdown_2: #FFECD2;
+$color_leslie_collab_1: #FFF8F9;
+$color_leslie_collab_2: #FFEFDB;
+$color_countdown_whitebg: #fdf0db;
+$color_product_key: #c5c5c5;
+$color_gdpr_checkbox_shadow: #4bd865;
+$color_nav_sort_button_bg: rgba(196, 14, 117, 0); // #C40E7500
+$color_join_club_bg_20: rgba(252, 210, 198, 0.2); // #FCD2C633
+$color_btn_close_0: rgba(245, 245, 220, 0); // #F5F5DC00
+$color_social_share_hover_0: rgba(231, 231, 231, 0); // #E7E7E7
+$color_filter_30: rgba(100, 100, 100, 0.3); // #6464644D
+$color_address_caption: #879bb5;
+$color_woocommerce_error: rgba(184, 28, 35, 0.24); // #b81c233d
+$color_woocommerce_message: #d3e495;
+$color_fps-section: #fff3f1;
+
+// new design 2019 colors
+$color_dark_red_approx: #f05e7c;
+$color_light_red_approx: #f7afb8;
+$color_sail_blue_approx: #a7deec;
+$color_orange: #F0AC99;
+$color_orange_light: #FACEB7;
+$color_orange_light_2: #f9f1ea;
+$color_brown: #CF9D7F;
+$color_brown_mid: #DDBCA6;
+$color_brown_light: #FAE0CA;
+$color_grey: #989898;
+$color_text_primary: #111;
+
+// Font constants
+$font_sans_serif: sans-serif;
+$font_times: Times;
+$font_woocom: WooCommerce;
+$font_awesome: "Font Awesome 5 Free";
+$font_helvetica: Helvetica;
+$font_roboto: "Roboto";
+$font_roboto_condensed: "Roboto Condensed";
+
+//new design 2019 font
+$font_montserrat: "Montserrat";
+$font_playfair_display: "Playfair Display";
+$font_bebas_neue: "Bebas Neue";
+
+// Logout Pages Header
+$header_height: 80px;
+$header_height_m: 70px;
+$header_height_s: 60px;
+
+// Breakpoints
+$screen-full: 1920px;
+$screen-lg: 1200px;
+$screen-slg: 1024px;
+$screen-md: 992px;
+$screen-sm: 768px;
+$screen-xs: 480px;
+$screen-sxs: 420px;
+$screen-full-max: ($screen-full - 0.1px);
+$screen-lg-max: ($screen-lg - 0.1px);
+$screen-slg-max: ($screen-slg - 0.1px);
+$screen-md-max: ($screen-md - 0.1px);
+$screen-sm-max: ($screen-sm - 0.1px);
+$screen-xs-max: ($screen-xs - 0.1px);
+$screen-sxs-max: ($screen-sxs - 0.1px);
+$screen-320: 320px;
+$screen-568: 568px;
+
+/*********************************************************
+    BREAKPOINTS
+
+    Standard breakpoints used with the shortcut 'mq' mixin
+    See mixin.scss for mixin and use example
+
+***********************************************************/
+
+$breakpoints: (
+    'phone-small': 375px,
+    'phone-wide': 480px,
+    'phablet': 560px,
+    'tablet-small': 640px,
+    'tablet': 768px,
+    'desktop-small': 992px,
+    'desktop': 1024px,
+    'desktop-wide': 1200px,
+    'desktop-full': 1920px
+);
+@import 'mixins.scss';

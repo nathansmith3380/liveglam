@@ -1,0 +1,21 @@
+<svg width="19px" height="15px" viewBox="0 0 19 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient x1="68.2310129%" y1="83.2005971%" x2="78.4035052%" y2="37.0712163%" id="linearGradient-1">
+      <stop stop-color="#96D4E2" offset="0%"></stop>
+      <stop stop-color="#CCF2FA" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+    <g id="Rewards" transform="translate(-66.000000, -2705.000000)" stroke="#6699A4">
+      <g id="diamond-elite-copy-15" transform="translate(67.000000, 2706.000000)">
+        <g id="Page-1" transform="translate(0.680000, 0.465160)">
+          <path d="M7.78203153,13.1003895 L-0.451900715,3.7816238 L2.56353427,-0.61722624 L13.0005288,-0.61722624 L16.0159638,3.7816238 L7.78203153,13.1003895 Z" id="Stroke-1" stroke-width="1.334" fill="url(#linearGradient-1)"></path>
+          <path d="M12.6488534,0.0497737602 L7.78179599,12.1178906" id="Stroke-3" stroke-linecap="round"></path>
+          <path d="M2.91520961,0.0497737602 L7.78226707,12.1178906" id="Stroke-5" stroke-linecap="round"></path>
+          <path d="M0.126956475,3.72952195 L15.8296745,3.72952195" id="Stroke-7" stroke-linecap="round"></path>
+          <polygon id="Stroke-9" stroke-linecap="round" points="11.0329652 3.72952195 7.78171747 0.0495479487 4.53125483 3.72952195"></polygon>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

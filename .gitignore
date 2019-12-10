@@ -1,0 +1,5 @@
+liveglam-gulp/node_modules
+liveglam-gulp/assets/css/*
+!liveglam-gulp/assets/css/src
+liveglam-gulp/assets/js/*
+!liveglam-gulp/assets/js/src

@@ -1,0 +1,549 @@
+{
+  "key": "group_5ch9k34a73q84",
+  "title": "KissMe GALGAL sale configuration (KMGSC)",
+  "fields": [
+    {
+      "key": "field_5ch9k3adb8q8c",
+      "label": "Referrers With 2 GALGAL",
+      "name": "gaga_km_2galgal",
+      "type": "user",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "role": "",
+      "allow_null": 1,
+      "multiple": 1,
+      "return_format": "id"
+    },
+    {
+      "key": "field_5b6d0352d1n05",
+      "label": "Referrers With 2 GALGAL Start Time",
+      "name": "gaga_km_2galgal_start_time",
+      "type": "date_time_picker",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "display_format": "Y-m-d H:i:s",
+      "return_format": "Y-m-d H:i:s",
+      "first_day": 1
+    },
+    {
+      "key": "field_5b6d0352d1n06",
+      "label": "Referrers With 2 GALGAL End Time",
+      "name": "gaga_km_2galgal_end_time",
+      "type": "date_time_picker",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "display_format": "Y-m-d H:i:s",
+      "return_format": "Y-m-d H:i:s",
+      "first_day": 1
+    },
+    {
+      "key": "field_5ab2dg318gq80",
+      "label": "Hellobar message on referral page (2GALGAL)",
+      "name": "gaga_km_2galgal_hellobar_referral",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5ab2dg318gq81",
+      "label": "Hellobar message on checkout page (2GALGAL)",
+      "name": "gaga_km_2galgal_hellobar_checkout",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5ag4b31g8gq80",
+      "label": "Hellobar message on pre-checkout page (2GALGAL)",
+      "name": "gaga_km_2galgal_hellobar_precheckout_no_select",
+      "type": "text",
+      "instructions": "When no club is selected (if empty then default will be applied)",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5ag4b31g8gq81",
+      "label": "Hellobar message on pre-checkout page (2GALGAL)",
+      "name": "gaga_km_2galgal_hellobar_precheckout_selected",
+      "type": "text",
+      "instructions": "When KissMe club is selected",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5ch9k3adv1q8c",
+      "label": "Referrers With No GALGAL",
+      "name": "gaga_km_0galgal",
+      "type": "user",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "role": "",
+      "allow_null": 1,
+      "multiple": 1,
+      "return_format": "id"
+    },
+    {
+      "key": "field_5b6d0352d1n07",
+      "label": "Referrers With No GALGAL Start Time",
+      "name": "gaga_km_0galgal_start_time",
+      "type": "date_time_picker",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "display_format": "Y-m-d H:i:s",
+      "return_format": "Y-m-d H:i:s",
+      "first_day": 1
+    },
+    {
+      "key": "field_5b6d0352d1n08",
+      "label": "Referrers With No GALGAL End Time",
+      "name": "gaga_km_0galgal_end_time",
+      "type": "date_time_picker",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "display_format": "Y-m-d H:i:s",
+      "return_format": "Y-m-d H:i:s",
+      "first_day": 1
+    },
+    {
+      "key": "field_5anwdg318gq80",
+      "label": "Hellobar message on referral page (No GALGAL)",
+      "name": "gaga_km_0galgal_hellobar_referral",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5anwdg318gq81",
+      "label": "Hellobar message on checkout page (No GALGAL)",
+      "name": "gaga_km_0galgal_hellobar_checkout",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5agl631g8gq80",
+      "label": "Hellobar message on pre-checkout page (No GALGAL)",
+      "name": "gaga_km_0galgal_hellobar_precheckout_no_select",
+      "type": "text",
+      "instructions": "When no club is selected (if empty then default will be applied)",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5agl631g8gq81",
+      "label": "Hellobar message on pre-checkout page (No GALGAL)",
+      "name": "gaga_km_0galgal_hellobar_precheckout_selected",
+      "type": "text",
+      "instructions": "When KissMe club is selected",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5c63e1ee2f375",
+      "label": "First trade alt set sale (FTAS)",
+      "name": "first_trade_setting_kissme",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "field_5c63e2092f376",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "",
+      "sub_fields": [
+        {
+          "key": "field_5c63e2092f376",
+          "label": "Apply on user codes",
+          "name": "first_trade_extend_codes",
+          "type": "user",
+          "instructions": "",
+          "required": 1,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "role": "",
+          "allow_null": 0,
+          "multiple": 1,
+          "return_format": "id"
+        },
+        {
+          "key": "field_5c63e2232f377",
+          "label": "Additional products to show in FT",
+          "name": "first_trade_extend_products",
+          "type": "post_object",
+          "instructions": "",
+          "required": 1,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "post_type": [
+            "product"
+          ],
+          "taxonomy": "",
+          "allow_null": 0,
+          "multiple": 1,
+          "return_format": "id",
+          "ui": 1
+        },
+        {
+          "key": "field_5b6d0352d1n16",
+          "label": "Schedule first trade settings (Start Time)",
+          "name": "first_trade_start_time",
+          "type": "date_time_picker",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "display_format": "Y-m-d H:i:s",
+          "return_format": "Y-m-d H:i:s",
+          "first_day": 1
+        },
+        {
+          "key": "field_5b6d0352d1n17",
+          "label": "Schedule first trade settings (End Time)",
+          "name": "first_trade_end_time",
+          "type": "date_time_picker",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "display_format": "Y-m-d H:i:s",
+          "return_format": "Y-m-d H:i:s",
+          "first_day": 1
+        },
+        {
+          "key": "field_5c63e2432f378",
+          "label": "1st item in additional products to be selected by default on FT",
+          "name": "first_trade_selected_default",
+          "type": "true_false",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "message": "",
+          "default_value": 0,
+          "ui": 1,
+          "ui_on_text": "",
+          "ui_off_text": ""
+        },
+        {
+          "key": "field_5b6d0352d1n18",
+          "label": "Sale Name",
+          "name": "first_trade_selected_default_sale_name",
+          "type": "text",
+          "instructions": "",
+          "required": 1,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e2432f378",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        },
+        {
+          "key": "field_5c78dcac89132",
+          "label": "Hellobar Message on Checkout",
+          "name": "hellobar_message_on_checkout",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e2432f378",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        },
+        {
+          "key": "field_5c78d8c689130",
+          "label": "Hellobar message on referral page.",
+          "name": "hellobar_message_on_referral_page",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e2432f378",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        },
+        {
+          "key": "field_5c78dcac89k32",
+          "label": "Hellobar Message on Pre-Checkout  ",
+          "name": "hellobar_message_on_precheckout_no_select",
+          "type": "text",
+          "instructions": "When no club is selected (if empty then default will be applied)",
+          "required": 0,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e2432f378",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        },
+        {
+          "key": "field_5c78dcac89k33",
+          "label": "Hellobar Message on Pre-Checkout  ",
+          "name": "hellobar_message_on_precheckout_selected",
+          "type": "text",
+          "instructions": "When KissMe club is selected",
+          "required": 0,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e2432f378",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        }
+      ]
+    },
+    {
+      "key": "field_5b6d0352d1n23",
+      "label": "Message stop cancel subscription before first renewal on my account",
+      "name": "gaga_km_message_stop_cancel",
+      "type": "textarea",
+      "instructions": "This message use on popup to stop cx trying cancel subscription before first renewal.<\/p>\nUse [name-sale] instead name of the sale.<\/p>",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": 2,
+      "new_lines": ""
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "promo-kissme-settings"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": 1,
+  "description": "",
+  "modified": 1575002693
+}
+

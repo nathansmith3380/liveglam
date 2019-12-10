@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/02/2016 14:50
+  	*/
+
+@font-face {
+  font-family: "Flaticon4";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon4";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon4;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-big-bambalina:before { content: "\f100"; }
+.flaticon-big-binocoulars:before { content: "\f101"; }
+.flaticon-big-megaphones:before { content: "\f102"; }
+.flaticon-box-seat:before { content: "\f103"; }
+.flaticon-camera-shutter:before { content: "\f104"; }
+.flaticon-camera-tripod:before { content: "\f105"; }
+.flaticon-cinema-3d-glasses:before { content: "\f106"; }
+.flaticon-cinema-popcorn:before { content: "\f107"; }
+.flaticon-cinema-projector:before { content: "\f108"; }
+.flaticon-clipboard-open:before { content: "\f109"; }
+.flaticon-comfortable-chair:before { content: "\f10a"; }
+.flaticon-direction-travelling:before { content: "\f10b"; }
+.flaticon-director-chair:before { content: "\f10c"; }
+.flaticon-dressing-room:before { content: "\f10d"; }
+.flaticon-dressing-room-door:before { content: "\f10e"; }
+.flaticon-dressing-room-makeup:before { content: "\f10f"; }
+.flaticon-dressing-room-mirror:before { content: "\f110"; }
+.flaticon-dressing-room-seat:before { content: "\f111"; }
+.flaticon-dressing-room-wig:before { content: "\f112"; }
+.flaticon-frontal-camera:before { content: "\f113"; }
+.flaticon-frontal-illuminatio:before { content: "\f114"; }
+.flaticon-hand-lamp:before { content: "\f115"; }
+.flaticon-hd-camera:before { content: "\f116"; }
+.flaticon-horizontal-film-strip:before { content: "\f117"; }
+.flaticon-line-separator:before { content: "\f118"; }
+.flaticon-microphone-with-stand:before { content: "\f119"; }
+.flaticon-movie-camera:before { content: "\f11a"; }
+.flaticon-movie-script:before { content: "\f11b"; }
+.flaticon-movie-travelling:before { content: "\f11c"; }
+.flaticon-mute-sign:before { content: "\f11d"; }
+.flaticon-old-video-camera:before { content: "\f11e"; }
+.flaticon-open-trunk-with-gears:before { content: "\f11f"; }
+.flaticon-oscar-statue:before { content: "\f120"; }
+.flaticon-play-video-button:before { content: "\f121"; }
+.flaticon-red-carpet:before { content: "\f122"; }
+.flaticon-saloon-doors:before { content: "\f123"; }
+.flaticon-scene-illumination:before { content: "\f124"; }
+.flaticon-scenic-illumination:before { content: "\f125"; }
+.flaticon-silence-cellphones:before { content: "\f126"; }
+.flaticon-soda-cup-with-straw:before { content: "\f127"; }
+.flaticon-storyboard:before { content: "\f128"; }
+.flaticon-super-8-camera:before { content: "\f129"; }
+.flaticon-the-end-on-screen:before { content: "\f12a"; }
+.flaticon-theater-tickets:before { content: "\f12b"; }
+.flaticon-theatre-stage:before { content: "\f12c"; }
+.flaticon-travelling-cart:before { content: "\f12d"; }
+.flaticon-travelling-rail:before { content: "\f12e"; }
+.flaticon-vintage-film-strip:before { content: "\f12f"; }
+.flaticon-vintage-video-camera:before { content: "\f130"; }
+.flaticon-western-movie:before { content: "\f131"; }

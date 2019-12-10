@@ -1,0 +1,549 @@
+{
+  "key": "group_5ch9k34a73354",
+  "title": "MorpheMe GABGAB sale configuration (MMGSC)",
+  "fields": [
+    {
+      "key": "field_5ch9k3adb853c",
+      "label": "Referrers With 2 GABGAB",
+      "name": "gaga_mm_2gabgab",
+      "type": "user",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "role": "",
+      "allow_null": 1,
+      "multiple": 1,
+      "return_format": "id"
+    },
+    {
+      "key": "field_5b6d0352d1n01",
+      "label": "Referrers With 2 GABGAB Start Time",
+      "name": "gaga_mm_2gabgab_start_time",
+      "type": "date_time_picker",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "display_format": "Y-m-d H:i:s",
+      "return_format": "Y-m-d H:i:s",
+      "first_day": 1
+    },
+    {
+      "key": "field_5b6d0352d1n02",
+      "label": "Referrers With 2 GABGAB End Time",
+      "name": "gaga_mm_2gabgab_end_time",
+      "type": "date_time_picker",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "display_format": "Y-m-d H:i:s",
+      "return_format": "Y-m-d H:i:s",
+      "first_day": 1
+    },
+    {
+      "key": "field_5ab2dg318ge60",
+      "label": "Hellobar message on referral page (2GABGAB)",
+      "name": "gaga_mm_2gabgab_hellobar_referral",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5ab2dg318ge61",
+      "label": "Hellobar message on checkout page (2GABGAB)",
+      "name": "gaga_mm_2gabgab_hellobar_checkout",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5ag4b31g8ge60",
+      "label": "Hellobar message on pre-checkout page (2GABGAB)",
+      "name": "gaga_mm_2gabgab_hellobar_precheckout_no_select",
+      "type": "text",
+      "instructions": "When no club is selected (if empty then default will be applied)",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5ag4b31g8ge61",
+      "label": "Hellobar message on pre-checkout page (2GABGAB)",
+      "name": "gaga_mm_2gabgab_hellobar_precheckout_selected",
+      "type": "text",
+      "instructions": "When MorpheMe club is selected",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5ch9k3adv153c",
+      "label": "Referrers With No GABGAB",
+      "name": "gaga_mm_0gabgab",
+      "type": "user",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "role": "",
+      "allow_null": 1,
+      "multiple": 1,
+      "return_format": "id"
+    },
+    {
+      "key": "field_5b6d0352d1n03",
+      "label": "Referrers With No GABGAB Start Time",
+      "name": "gaga_mm_0gabgab_start_time",
+      "type": "date_time_picker",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "display_format": "Y-m-d H:i:s",
+      "return_format": "Y-m-d H:i:s",
+      "first_day": 1
+    },
+    {
+      "key": "field_5b6d0352d1n04",
+      "label": "Referrers With No GABGAB End Time",
+      "name": "gaga_mm_0gabgab_end_time",
+      "type": "date_time_picker",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "display_format": "Y-m-d H:i:s",
+      "return_format": "Y-m-d H:i:s",
+      "first_day": 1
+    },
+    {
+      "key": "field_5anwdg318ge60",
+      "label": "Hellobar message on referral page (No GABGAB)",
+      "name": "gaga_mm_0gabgab_hellobar_referral",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5anwdg318ge61",
+      "label": "Hellobar message on checkout page (No GABGAB)",
+      "name": "gaga_mm_0galgal_hellobar_checkout",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5agl631g8ge60",
+      "label": "Hellobar message on pre-checkout page (No GABGAB)",
+      "name": "gaga_mm_0galgal_hellobar_precheckout_no_select",
+      "type": "text",
+      "instructions": "When no club is selected (if empty then default will be applied)",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5agl631g8ge61",
+      "label": "Hellobar message on pre-checkout page (No GABGAB)",
+      "name": "gaga_mm_0galgal_hellobar_precheckout_selected",
+      "type": "text",
+      "instructions": "When MorpheMe club is selected",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_5c63e1ee22e75",
+      "label": "First trade alt set sale (FTAS)",
+      "name": "first_trade_setting_morpheme",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "field_5c63e20922e76",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "",
+      "sub_fields": [
+        {
+          "key": "field_5c63e20922e76",
+          "label": "Apply on user codes",
+          "name": "first_trade_extend_codes",
+          "type": "user",
+          "instructions": "",
+          "required": 1,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "role": "",
+          "allow_null": 0,
+          "multiple": 1,
+          "return_format": "id"
+        },
+        {
+          "key": "field_5c63e22322e77",
+          "label": "Additional products to show in FT",
+          "name": "first_trade_extend_products",
+          "type": "post_object",
+          "instructions": "",
+          "required": 1,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "post_type": [
+            "product"
+          ],
+          "taxonomy": "",
+          "allow_null": 0,
+          "multiple": 1,
+          "return_format": "id",
+          "ui": 1
+        },
+        {
+          "key": "field_5b6d0352d1n13",
+          "label": "Schedule first trade settings (Start Time)",
+          "name": "first_trade_start_time",
+          "type": "date_time_picker",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "display_format": "Y-m-d H:i:s",
+          "return_format": "Y-m-d H:i:s",
+          "first_day": 1
+        },
+        {
+          "key": "field_5b6d0352d1n14",
+          "label": "Schedule first trade settings (End Time)",
+          "name": "first_trade_end_time",
+          "type": "date_time_picker",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "display_format": "Y-m-d H:i:s",
+          "return_format": "Y-m-d H:i:s",
+          "first_day": 1
+        },
+        {
+          "key": "field_5c63e24322e78",
+          "label": "1st item in additional products to be selected by default on FT",
+          "name": "first_trade_selected_default",
+          "type": "true_false",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "message": "",
+          "default_value": 0,
+          "ui": 1,
+          "ui_on_text": "",
+          "ui_off_text": ""
+        },
+        {
+          "key": "field_5b6d0352d1n15",
+          "label": "Sale Name",
+          "name": "first_trade_selected_default_sale_name",
+          "type": "text",
+          "instructions": "",
+          "required": 1,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e24322e78",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        },
+        {
+          "key": "field_5c78d8c689126",
+          "label": "Hellobar message on checkout",
+          "name": "hellobar_message_on_checkout",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e24322e78",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        },
+        {
+          "key": "field_5c78dcac89128",
+          "label": "Hellobar message on referral page.",
+          "name": "hellobar_message_on_referral_page",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e24322e78",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        },
+        {
+          "key": "field_5c78dcac89129",
+          "label": "Hellobar Message on Pre-Checkout",
+          "name": "hellobar_message_on_precheckout_no_select",
+          "type": "text",
+          "instructions": "When no club is selected (if empty then default will be applied)",
+          "required": 0,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e24322e78",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        },
+        {
+          "key": "field_5c78dcac89130",
+          "label": "Hellobar Message on Pre-Checkout",
+          "name": "hellobar_message_on_precheckout_selected",
+          "type": "text",
+          "instructions": "When MorpheMe club is selected",
+          "required": 0,
+          "conditional_logic": [
+            [
+              {
+                "field": "field_5c63e24322e78",
+                "operator": "==",
+                "value": "1"
+              }
+            ]
+          ],
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        }
+      ]
+    },
+    {
+      "key": "field_5b6d0352d1n22",
+      "label": "Message stop cancel subscription before first renewal on my account",
+      "name": "gaga_mm_message_stop_cancel",
+      "type": "textarea",
+      "instructions": "This message use on popup to stop cx trying cancel subscription before first renewal.<\/p>\nUse[name-sale] instead name of the sale.<\/p>",
+      "required":0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": 2,
+      "new_lines": ""
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "promo-morpheme-settings"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": 1,
+  "description": "",
+  "modified": 1575002693
+}
+

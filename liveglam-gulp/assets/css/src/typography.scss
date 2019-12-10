@@ -1,0 +1,103 @@
+@import 'constants.scss';
+
+/* ----------------------------------------------------------
+
+	Typography adjustment styles for logout pages
+	** prefixed by 'nd19' (new design 2019)
+
+------------------------------------------------------------- */
+
+.nd19-hero-title {
+	font-size: 36px;
+}
+.nd19-hero-subtitle {
+	font-size: 24px;
+}
+.nd19-section-title {
+	font-size: 36px;
+}
+.nd19-section-subtitle {
+	font-size: 20px;
+}
+.nd19-block-title {
+	font-size: 30px;
+}
+.nd19-block-title-20{
+	font-size: 20px;
+}
+.nd19-block-content {
+	font-size: 17px;
+}
+.nd19-block-title-s {
+	font-size: 24px;
+}
+.nd19-block-content-s {
+	font-size: 15px;
+}
+.nd19-category-link {
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.nd19-block-content-xs{
+	font-size: 13px;
+}
+
+@media (max-width: $screen-lg-max) {
+	.nd19-hero-title {
+		font-size: 3vw;
+	}
+	.nd19-hero-subtitle {
+		font-size: 2vw;
+	}
+	.nd19-section-title {
+		font-size: 3vw;
+	}
+	.nd19-section-subtitle {
+		font-size: 1.67vw;
+	}
+	.nd19-block-title {
+		font-size: 2.5vw;
+	}
+	.nd19-block-content {
+		font-size: 1.42vw;
+	}
+	.nd19-block-title-s {
+		font-size: 2vw;
+	}
+	.nd19-block-content-s {
+		font-size: 1.25vw;
+	}
+	.nd19-category-link {
+		font-size: 1.17vw;
+	}	
+}
+
+@media (max-width: $screen-sm-max) {
+	.nd19-hero-title {
+		font-size: 32px;
+	}
+	.nd19-hero-subtitle {
+		font-size: 18px;
+	}
+	.nd19-section-title {
+		font-size: 25px;
+	}
+	.nd19-section-subtitle {
+		font-size: 18px;
+	}
+	.nd19-block-title {
+		font-size: 20px;
+	}
+	.nd19-block-content {
+		font-size: 15px;
+	}
+	.nd19-block-title-s {
+		font-size: 18px;
+	}
+	.nd19-block-content-s {
+		font-size: 14px;
+	}
+	.nd19-category-link {
+		font-size: 13px;
+	}	
+}

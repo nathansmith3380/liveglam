@@ -1,0 +1,166 @@
+@import '../constants.scss';
+
+
+/* ----------------------------------------------------------
+
+	Single testimonial, Single review page tyles
+
+------------------------------------------------------------- */
+
+
+.sinlge-testimonials-section {
+    background: url(../../img/testimonial_bg_left.png) no-repeat left top, url(../../img/testimonial_bg_bottom.png) no-repeat bottom right;
+    background-color: #f5f4f4;
+    padding: 100px 0;
+    position: relative;
+    text-align: left;
+
+    .cute-1 , .cute-2, .cute-3, .cute-4 {
+        position: absolute;
+    }
+
+    .cute-1 {
+        right: 60px;
+        animation-duration: 4s;
+        bottom: 150px;
+    }
+
+    .cute-2 {
+        left: 160px;
+        top: 100px;
+    }
+
+    .cute-3 {
+        left: 100px;
+        top: 35px;
+    }
+
+    .cute-4 {
+        right: 37%;
+        top: 100px;
+    }
+
+    .image-box {
+        width: 100%;
+        padding-top: 100%;
+        overflow-wrap: hidden;
+        background-size: cover;
+        border-radius: 50%;
+
+        @include mq('tablet') {
+            width: 80%;
+            padding-top: 80%;
+            margin-left: 10%;
+        }
+    }
+
+    .image-content {
+        font-size: 18px;
+
+        @include mq('tablet') {
+            font-size: 15px;
+            line-height: 1.6 !important;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-family: $font_playfair_display, $font_helvetica, $font_sans_serif;
+
+            @include mq('tablet') {
+                font-size: 35px;
+                margin-top: 1em;
+            }
+        }
+
+        .quotes {
+            color: #f0ac99;
+            font-family: "Playfair Display",Helvetica,sans-serif;
+            font-size: 150px;
+            font-weight: 700;
+            line-height: 60px;
+            margin: 30px 0 -20px;
+        }
+
+        .name {
+            color: $color_dark_red_approx;
+            font-weight: 500;
+        }
+
+        .social {
+            display: flex;
+            align-items: center;
+            margin-top: .5em;
+
+            img {
+                min-width: 20px;
+                margin-right: .5em;
+            }
+        }
+    }
+}
+
+.rotate-cute {
+    animation-name: rotateme;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    // -webkit-animation-name: rotateme;
+    // -webkit-animation-duration: 24s;
+    // -webkit-animation-iteration-count: infinite;
+    // -webkit-animation-timing-function: linear;
+    // -moz-animation-name: rotateme;
+    // -moz-animation-duration: 24s;
+    // -moz-animation-iteration-count: infinite;
+    // -moz-animation-timing-function: linear;
+    // -ms-animation-name: rotateme;
+    // -ms-animation-duration: 24s;
+    // -ms-animation-iteration-count: infinite;
+    // -ms-animation-timing-function: linear;
+    // -o-animation-name: rotateme;
+    // -o-animation-duration: 24s;
+    // -o-animation-iteration-count: infinite;
+    // -o-animation-timing-function: linear;
+}
+
+.float-cute {
+    animation-name: floatme;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    // -webkit-animation-name: floatme;
+    // -webkit-animation-duration: 2s;
+    // -webkit-animation-iteration-count: infinite;
+    // -webkit-animation-timing-function: linear;
+    // -moz-animation-name: floatme;
+    // -moz-animation-duration: 2s;
+    // -moz-animation-iteration-count: infinite;
+    // -moz-animation-timing-function: linear;
+    // -ms-animation-name: floatme;
+    // -ms-animation-duration: 2s;
+    // -ms-animation-iteration-count: infinite;
+    // -ms-animation-timing-function: linear;
+    // -o-animation-name: floatme;
+    // -o-animation-duration: 2s;
+    // -o-animation-iteration-count: infinite;
+    // -o-animation-timing-function: linear;
+}
+
+@keyframes rotateme {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes floatme {
+    0% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    50% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+    100% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+}

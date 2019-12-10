@@ -1,0 +1,134 @@
+	/*
+  	Flaticon icon font: Flaticon2
+  	Creation date: 19/02/2016 14:43
+  	*/
+
+@font-face {
+  font-family: "Flaticon2";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon2";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-add-new-document:before { content: "\f100"; }
+.flaticon-add-to-list-button:before { content: "\f101"; }
+.flaticon-aeroplane-fly:before { content: "\f102"; }
+.flaticon-apple-macintosh-logo:before { content: "\f103"; }
+.flaticon-arrow-to-left-inside-circles:before { content: "\f104"; }
+.flaticon-articulate-desk-lamp:before { content: "\f105"; }
+.flaticon-atom-molecule:before { content: "\f106"; }
+.flaticon-balance-tool:before { content: "\f107"; }
+.flaticon-battery-full-charged:before { content: "\f108"; }
+.flaticon-big-heart:before { content: "\f109"; }
+.flaticon-big-paper-clip:before { content: "\f10a"; }
+.flaticon-black-flag:before { content: "\f10b"; }
+.flaticon-black-pin:before { content: "\f10c"; }
+.flaticon-black-star-of-five-point:before { content: "\f10d"; }
+.flaticon-black-suitcase:before { content: "\f10e"; }
+.flaticon-businessman-suitcase:before { content: "\f10f"; }
+.flaticon-calculating:before { content: "\f110"; }
+.flaticon-calendar-day-notebook:before { content: "\f111"; }
+.flaticon-cellphone-touchscreen:before { content: "\f112"; }
+.flaticon-child-head-with-smiling-face:before { content: "\f113"; }
+.flaticon-circular-counterclockwise-rotating-arrow:before { content: "\f114"; }
+.flaticon-circular-fan:before { content: "\f115"; }
+.flaticon-communication-bubbles:before { content: "\f116"; }
+.flaticon-connections-symbol:before { content: "\f117"; }
+.flaticon-cylinder:before { content: "\f118"; }
+.flaticon-delete-page:before { content: "\f119"; }
+.flaticon-dollars-symbol:before { content: "\f11a"; }
+.flaticon-dot:before { content: "\f11b"; }
+.flaticon-dove:before { content: "\f11c"; }
+.flaticon-dress-dummy:before { content: "\f11d"; }
+.flaticon-electric-bolt:before { content: "\f11e"; }
+.flaticon-enter-info:before { content: "\f11f"; }
+.flaticon-eye-with-a-line-and-circles:before { content: "\f120"; }
+.flaticon-files-selection:before { content: "\f121"; }
+.flaticon-fire:before { content: "\f122"; }
+.flaticon-flat-world-map:before { content: "\f123"; }
+.flaticon-garbage-container:before { content: "\f124"; }
+.flaticon-gcons:before { content: "\f125"; }
+.flaticon-gift-bag:before { content: "\f126"; }
+.flaticon-glasses-outline:before { content: "\f127"; }
+.flaticon-globe-with-grid:before { content: "\f128"; }
+.flaticon-graphic-design:before { content: "\f129"; }
+.flaticon-headphones-for-personal-hearing:before { content: "\f12a"; }
+.flaticon-identification-card:before { content: "\f12b"; }
+.flaticon-interface-send-symbol:before { content: "\f12c"; }
+.flaticon-ipod-mini:before { content: "\f12d"; }
+.flaticon-irregular-cloud-shape:before { content: "\f12e"; }
+.flaticon-laptop-computer:before { content: "\f12f"; }
+.flaticon-left-mouse-button:before { content: "\f130"; }
+.flaticon-linked-chain:before { content: "\f131"; }
+.flaticon-lock-closed:before { content: "\f132"; }
+.flaticon-magnifier:before { content: "\f133"; }
+.flaticon-man-with-a-tie:before { content: "\f134"; }
+.flaticon-mechanic-wrench:before { content: "\f135"; }
+.flaticon-microphone:before { content: "\f136"; }
+.flaticon-monitor-screen:before { content: "\f137"; }
+.flaticon-music-melody:before { content: "\f138"; }
+.flaticon-network-diagram:before { content: "\f139"; }
+.flaticon-networking-connections:before { content: "\f13a"; }
+.flaticon-new-moon:before { content: "\f13b"; }
+.flaticon-notebook-calendar:before { content: "\f13c"; }
+.flaticon-oil-lamp-with-oil-drop:before { content: "\f13d"; }
+.flaticon-old-cellphone:before { content: "\f13e"; }
+.flaticon-open-email:before { content: "\f13f"; }
+.flaticon-open-padlock:before { content: "\f140"; }
+.flaticon-open-scissors:before { content: "\f141"; }
+.flaticon-open-umbrella-shelter:before { content: "\f142"; }
+.flaticon-opened-book-with-bookmarker:before { content: "\f143"; }
+.flaticon-paper-boat-shape:before { content: "\f144"; }
+.flaticon-parabolic-antenna:before { content: "\f145"; }
+.flaticon-part-of-a-computer-folder:before { content: "\f146"; }
+.flaticon-pen-and-wrench-tools-crossed:before { content: "\f147"; }
+.flaticon-person-user-avatar:before { content: "\f148"; }
+.flaticon-planet-earth:before { content: "\f149"; }
+.flaticon-plants-leaves:before { content: "\f14a"; }
+.flaticon-pointer-crosstree:before { content: "\f14b"; }
+.flaticon-power-circle-and-line-symbol:before { content: "\f14c"; }
+.flaticon-printer-printing-paper:before { content: "\f14d"; }
+.flaticon-quarter-pie-piece-graph:before { content: "\f14e"; }
+.flaticon-rectangular-modern-monitor:before { content: "\f14f"; }
+.flaticon-refrigerator:before { content: "\f150"; }
+.flaticon-round-pennant-with-ribbon:before { content: "\f151"; }
+.flaticon-rss-logo:before { content: "\f152"; }
+.flaticon-security-shield:before { content: "\f153"; }
+.flaticon-sheet-and-pencil:before { content: "\f154"; }
+.flaticon-size-ticket:before { content: "\f155"; }
+.flaticon-spring-flower:before { content: "\f156"; }
+.flaticon-striped-sphere:before { content: "\f157"; }
+.flaticon-telephone:before { content: "\f158"; }
+.flaticon-test-tube-experiment:before { content: "\f159"; }
+.flaticon-three-leaves:before { content: "\f15a"; }
+.flaticon-truck-silhouette:before { content: "\f15b"; }
+.flaticon-two-flowers:before { content: "\f15c"; }
+.flaticon-two-rounded-speech-bubbles:before { content: "\f15d"; }
+.flaticon-upside-plate:before { content: "\f15e"; }
+.flaticon-user-profile:before { content: "\f15f"; }
+.flaticon-vertical-thin-sound-bars:before { content: "\f160"; }
+.flaticon-vintage-cassette:before { content: "\f161"; }
+.flaticon-vintage-floppy-disk:before { content: "\f162"; }
+.flaticon-volume-bars:before { content: "\f163"; }
+.flaticon-website-home:before { content: "\f164"; }
+.flaticon-wheelbarrow:before { content: "\f165"; }
+.flaticon-wi-fi-sign-with-bow:before { content: "\f166"; }
